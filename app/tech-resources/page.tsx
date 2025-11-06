@@ -18,7 +18,7 @@ const TechResources = () => {
         {/* Communities & Forums */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            👥 Communities & Forums
+            Communities & Forums
           </h2>
           <div className="row g-3">
             <div className="col-md-6">
@@ -26,8 +26,10 @@ const TechResources = () => {
                 <div className="card-body">
                   <h5 className="card-title text-teal-mid fw-bold">Code4Lib</h5>
                   <p className="card-text">A community of library technologists sharing tools, ideas, and solutions.</p>
+                  <div className="d-flex"></div>
                   <a href="https://code4lib.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Site</a>
+                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-auto">Visit Site</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -47,7 +49,7 @@ const TechResources = () => {
         {/* Security Resources */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            🔒 Security & Privacy
+          Security & Privacy
           </h2>
           <div className="row g-3">
             <div className="col-md-6">
@@ -76,7 +78,7 @@ const TechResources = () => {
         {/* Development Tools */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            💻 Development & Technical Tools
+        Development & Technical Tools
           </h2>
           <div className="row g-3">
             <div className="col-md-4">
@@ -115,7 +117,7 @@ const TechResources = () => {
         {/* Open Source Library Systems */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            📚 Open Source Library Systems
+            Open Source Library Systems
           </h2>
           <div className="row g-3">
             <div className="col-md-6">
@@ -144,7 +146,7 @@ const TechResources = () => {
         {/* Learning Resources */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            🎓 Learning & Professional Development
+            Learning & Professional Development
           </h2>
           <div className="row g-3">
             <div className="col-md-4">
@@ -183,7 +185,7 @@ const TechResources = () => {
         {/* Standards & Best Practices */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            ✓ Standards & Best Practices
+            Standards & Best Practices
           </h2>
           <div className="row g-3">
             <div className="col-md-6">

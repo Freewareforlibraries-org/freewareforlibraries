@@ -10,7 +10,7 @@ const Alternatives = () => {
         </p>
         <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
           <p className="mb-0 text-center">
-            <strong>💡 Pro Tip:</strong> Most of these applications are completely free and open-source. Some offer free versions with premium upgrades available.
+            <strong>Pro Tip:</strong> Most of these applications are completely free and open-source. Some offer free versions with premium upgrades available.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ const Alternatives = () => {
               <div className="card h-100 shadow-sm d-flex flex-column">
                 <div className="card-body d-flex flex-column">
                   <div className="mb-2">
-                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-warning text-dark me-2"> Most Popular</span>
                     <span className="badge bg-success">Intermediate</span>
                   </div>
                   <h5 className="card-title text-teal-mid fw-bold">GIMP</h5>
@@ -95,7 +95,7 @@ const Alternatives = () => {
                     <a href="https://www.gimp.org/downloads/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=gimp+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -122,7 +122,7 @@ const Alternatives = () => {
                     <a href="https://krita.org/en/download/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=krita+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -146,7 +146,7 @@ const Alternatives = () => {
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Open Application</a>
                     <span className="btn btn-sm btn-outline-secondary disabled">No Download Needed</span>
                     <a href="https://www.youtube.com/results?search_query=photopea+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -164,7 +164,7 @@ const Alternatives = () => {
               <div className="card h-100 shadow-sm d-flex flex-column">
                 <div className="card-body d-flex flex-column">
                   <div className="mb-2">
-                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-warning text-dark me-2"> Most Popular</span>
                     <span className="badge bg-success">Intermediate</span>
                   </div>
                   <h5 className="card-title text-teal-mid fw-bold">Inkscape</h5>
@@ -182,7 +182,7 @@ const Alternatives = () => {
                     <a href="https://inkscape.org/release/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=inkscape+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -210,7 +210,7 @@ const Alternatives = () => {
                     <a href="https://vectr.com/downloads/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=vectr+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -228,7 +228,7 @@ const Alternatives = () => {
               <div className="card h-100 shadow-sm d-flex flex-column">
                 <div className="card-body d-flex flex-column">
                   <div className="mb-2">
-                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-warning text-dark me-2"> Most Popular</span>
                     <span className="badge bg-danger text-white">Advanced</span>
                   </div>
                   <h5 className="card-title text-teal-mid fw-bold">DaVinci Resolve</h5>
@@ -247,7 +247,7 @@ const Alternatives = () => {
                     <a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=davinci+resolve+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -274,7 +274,7 @@ const Alternatives = () => {
                     <a href="https://shotcut.org/download/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=shotcut+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -301,7 +301,7 @@ const Alternatives = () => {
                     <a href="https://www.openshot.org/download/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=openshot+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -336,7 +336,7 @@ const Alternatives = () => {
                     <a href="https://www.scribus.net/downloads/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=scribus+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -346,7 +346,7 @@ const Alternatives = () => {
               <div className="card h-100 shadow-sm d-flex flex-column">
                 <div className="card-body d-flex flex-column">
                   <div className="mb-2">
-                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-warning text-dark me-2"> Most Popular</span>
                     <span className="badge bg-info text-dark">Beginner</span>
                   </div>
                   <h5 className="card-title text-teal-mid fw-bold">Canva (Free)</h5>
@@ -362,7 +362,7 @@ const Alternatives = () => {
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Open Application</a>
                     <span className="btn btn-sm btn-outline-secondary disabled">No Download Needed</span>
                     <a href="https://www.youtube.com/results?search_query=canva+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -380,7 +380,7 @@ const Alternatives = () => {
               <div className="card h-100 shadow-sm d-flex flex-column">
                 <div className="card-body d-flex flex-column">
                   <div className="mb-2">
-                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-warning text-dark me-2"> Most Popular</span>
                     <span className="badge bg-danger text-white">Advanced</span>
                   </div>
                   <h5 className="card-title text-teal-mid fw-bold">Blender</h5>
@@ -398,7 +398,7 @@ const Alternatives = () => {
                     <a href="https://www.blender.org/download/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=blender+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -416,7 +416,7 @@ const Alternatives = () => {
               <div className="card h-100 shadow-sm d-flex flex-column">
                 <div className="card-body d-flex flex-column">
                   <div className="mb-2">
-                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-warning text-dark me-2"> Most Popular</span>
                     <span className="badge bg-info text-dark">Beginner</span>
                   </div>
                   <h5 className="card-title text-teal-mid fw-bold">Audacity</h5>
@@ -434,95 +434,104 @@ const Alternatives = () => {
                     <a href="https://www.audacityteam.org/download/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=audacity+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="col-md-6 col-lg-4">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-info text-dark">Beginner</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Ocenaudio</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Audition (Simplified)</p>
                   <p className="card-text">Fast and easy-to-use audio editor with real-time preview of effects and VST plugin support.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> MP3, WAV, AIFF, FLAC, OGG</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://www.ocenaudio.com/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.ocenaudio.com/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.ocenaudio.com/download" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=oceanaudio+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
         {/* Office & Productivity */}
-        <div className="mb-5">
+
+         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            <i className="bi bi-briefcase"></i> Office & Productivity
+            <i className="bi bi-music-note-beamed"></i> Office & Productivity
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-info text-dark">Beginner</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">LibreOffice</h5>
                   <p className="text-muted small mb-2">Alternative to: Microsoft Office</p>
                   <p className="card-text">Full-featured office suite with word processor, spreadsheet, presentation, and more.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> odt, doc, docx, rtf, txt, html, pdf, ods, xls, xlsx, csv, odp, ppt, pptx</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://www.libreoffice.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.libreoffice.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.libreoffice.org/download/download-libreoffice/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=LibreOffice+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
-                  <h5 className="card-title text-teal-mid fw-bold">Google Workspace (Free)</h5>
+              <div className="col-md-6 col-lg-4">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-warning text-dark me-2"> Most Popular</span>
+                    <span className="badge bg-info text-dark">Beginner</span>
+                  </div>
+                  <h5 className="card-title text-teal-mid fw-bold">Google Docs (Free)</h5>
                   <p className="text-muted small mb-2">Alternative to: Microsoft Office</p>
                   <p className="card-text">Cloud-based productivity suite with Docs, Sheets, Slides, and real-time collaboration.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> doc, docx, odt, rtf, txt, pdf, html, xls, xlsx, csv, ods, ppt, pptx, odp, jpg, png, gif, svg, tif, tiff</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Web-based</span>
                   </div>
-                  <a href="https://workspace.google.com/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://docs.google.com" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.youtube.com/results?search_query=google+docs+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
-        {/* Getting Started Section */}
-        <div className="bg-teal-light p-4 rounded shadow-sm mb-5">
-          <h2 className="text-teal-mid fw-bolder mb-3 text-center">Getting Started with Free Software</h2>
-          <div className="row">
-            <div className="col-md-4 mb-3">
-              <div className="text-center">
-                <h4 className="text-teal-dark">1. Choose Your Tool</h4>
-                <p className="text-teal-mid">Review the alternatives above and select software that matches your needs.</p>
-              </div>
-            </div>
-            <div className="col-md-4 mb-3">
-              <div className="text-center">
-                <h4 className="text-teal-dark">2. Check System Requirements</h4>
-                <p className="text-teal-mid">Verify the software works on your operating system (Windows, macOS, or Linux).</p>
-              </div>
-            </div>
-            <div className="col-md-4 mb-3">
-              <div className="text-center">
-                <h4 className="text-teal-dark">3. Find Tutorials</h4>
-                <p className="text-teal-mid">Most free software has excellent YouTube tutorials and community documentation.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
       </div>
     </div>

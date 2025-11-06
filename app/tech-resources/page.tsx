@@ -26,7 +26,7 @@ const TechResources = () => {
                 <div className="card-body">
                   <h5 className="card-title text-teal-mid fw-bold">Code4Lib</h5>
                   <p className="card-text">A community of library technologists sharing tools, ideas, and solutions.</p>
-                  <div className="d-flex"></div>
+                  <div className="d-flex">
                   <a href="https://code4lib.org/" target="_blank" rel="noopener noreferrer" 
                      className="btn btn-sm bg-teal-mid text-white hvr-grow mt-auto">Visit Site</a>
                   </div>

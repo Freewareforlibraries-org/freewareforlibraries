@@ -74,50 +74,80 @@ const Alternatives = () => {
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-success">Intermediate</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">GIMP</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Photoshop</p>
                   <p className="card-text">Powerful image editor with advanced features for photo retouching, image composition, and graphic design.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> PSD, XCF, PNG, JPG, GIF, TIFF</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.gimp.org/downloads/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=gimp+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
             
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-success">Intermediate</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Krita</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Photoshop (Digital Painting)</p>
                   <p className="card-text">Professional digital painting application with excellent brush engines and illustration tools.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> KRA, PSD, PNG, JPG, TIFF</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://krita.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://krita.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://krita.org/en/download/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=krita+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-info text-dark">Beginner</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Photopea</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Photoshop (Web-based)</p>
                   <p className="card-text">Free online photo editor that works directly in your browser with PSD file support.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> PSD, XCF, Sketch, XD, CDR</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Web-based</span>
                   </div>
-                  <a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Open Application</a>
+                    <span className="btn btn-sm btn-outline-secondary disabled">No Download Needed</span>
+                    <a href="https://www.youtube.com/results?search_query=photopea+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -131,36 +161,57 @@ const Alternatives = () => {
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-success">Intermediate</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Inkscape</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Illustrator</p>
                   <p className="card-text">Professional vector graphics editor perfect for logos, illustrations, diagrams, and web graphics.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> SVG, AI, EPS, PDF, PNG</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://inkscape.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://inkscape.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://inkscape.org/release/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=inkscape+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-info text-dark">Beginner</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Vectr</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Illustrator (Simplified)</p>
                   <p className="card-text">Simple yet powerful vector graphics software for creating logos, presentations, and designs.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> SVG, PNG, JPG</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                     <span className="badge bg-teal-light text-teal-dark">Web-based</span>
                   </div>
-                  <a href="https://vectr.com/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://vectr.com/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://vectr.com/downloads/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=vectr+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -174,53 +225,84 @@ const Alternatives = () => {
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-danger text-white">Advanced</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">DaVinci Resolve</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Premiere Pro</p>
                   <p className="card-text">Professional video editing, color correction, and audio post-production software used by Hollywood.</p>
                   <p className="text-muted small mb-2"><strong>Note:</strong> Free version available; Studio version requires purchase</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> MP4, MOV, AVI, MKV, ProRes</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=davinci+resolve+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-success">Intermediate</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Shotcut</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Premiere Pro</p>
                   <p className="card-text">Free, open-source, cross-platform video editor with a wide range of features and format support.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> MP4, MOV, AVI, MKV, WebM, many more</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://shotcut.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://shotcut.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://shotcut.org/download/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=shotcut+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-info text-dark">Beginner</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">OpenShot</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Premiere Pro (Beginner-friendly)</p>
                   <p className="card-text">Easy-to-use video editor with powerful features, perfect for beginners and quick projects.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> MP4, AVI, MOV, WebM, FLV</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://www.openshot.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.openshot.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.openshot.org/download/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=openshot+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -234,34 +316,54 @@ const Alternatives = () => {
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-success">Intermediate</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Scribus</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe InDesign</p>
                   <p className="card-text">Professional page layout application for creating magazines, newsletters, posters, and more.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> SLA, PDF, EPS, SVG</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://www.scribus.net/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.scribus.net/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.scribus.net/downloads/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=scribus+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-info text-dark">Beginner</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Canva (Free)</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe InDesign (Simplified)</p>
                   <p className="card-text">User-friendly design platform with thousands of templates for social media, presentations, and print.</p>
                   <p className="text-muted small mb-2"><strong>Note:</strong> Free version available; Pro features require subscription</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> PNG, JPG, PDF, MP4, GIF</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Web-based</span>
                   </div>
-                  <a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Open Application</a>
+                    <span className="btn btn-sm btn-outline-secondary disabled">No Download Needed</span>
+                    <a href="https://www.youtube.com/results?search_query=canva+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -275,18 +377,29 @@ const Alternatives = () => {
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-danger text-white">Advanced</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Blender</h5>
                   <p className="text-muted small mb-2">Alternative to: Maya, 3ds Max, Cinema 4D</p>
                   <p className="card-text">Complete 3D creation suite supporting modeling, animation, rendering, and video editing.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> BLEND, FBX, OBJ, STL, GLTF</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://www.blender.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.blender.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.blender.org/download/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=blender+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -300,18 +413,29 @@ const Alternatives = () => {
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm">
-                <div className="card-body">
+              <div className="card h-100 shadow-sm d-flex flex-column">
+                <div className="card-body d-flex flex-column">
+                  <div className="mb-2">
+                    <span className="badge bg-warning text-dark me-2">⭐ Most Popular</span>
+                    <span className="badge bg-info text-dark">Beginner</span>
+                  </div>
                   <h5 className="card-title text-teal-mid fw-bold">Audacity</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Audition</p>
                   <p className="card-text">Multi-track audio editor and recorder for podcasts, music, and sound effects editing.</p>
-                  <div className="d-flex gap-2 flex-wrap">
+                  <p className="text-muted small mb-2"><strong>File Support:</strong> MP3, WAV, AIFF, FLAC, OGG</p>
+                  <div className="d-flex gap-2 flex-wrap mb-3">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
-                  <a href="https://www.audacityteam.org/" target="_blank" rel="noopener noreferrer" 
-                     className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
+                  <div className="mt-auto d-flex flex-column gap-2">
+                    <a href="https://www.audacityteam.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://www.audacityteam.org/download/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
+                    <a href="https://www.youtube.com/results?search_query=audacity+tutorial" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-danger hvr-grow">📺 YouTube Tutorials</a>
+                  </div>
                 </div>
               </div>
             </div>

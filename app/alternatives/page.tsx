@@ -5,9 +5,67 @@ const Alternatives = () => {
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
         <h1 className="display-1 text-teal-mid fw-bolder text-center">Free Alternative Applications</h1>
-        <p className="fs-5 text-teal-mid text-center mb-5">
+        <p className="fs-5 text-teal-mid text-center mb-3">
           Professional-grade free and open-source alternatives to expensive commercial software
         </p>
+        <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
+          <p className="mb-0 text-center">
+            <strong>💡 Pro Tip:</strong> Most of these applications are completely free and open-source. Some offer free versions with premium upgrades available.
+          </p>
+        </div>
+
+        {/* Quick Reference Table */}
+        <div className="mb-5">
+          <h2 className="text-teal-mid fw-bolder mb-3 text-center">Quick Reference Guide</h2>
+          <div className="table-responsive">
+            <table className="table table-hover shadow-sm">
+              <thead className="bg-teal-mid text-white">
+                <tr>
+                  <th>Commercial Software</th>
+                  <th>Free Alternative</th>
+                  <th>Best For</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Adobe Photoshop</td>
+                  <td>GIMP, Krita, Photopea</td>
+                  <td>Photo editing, digital art</td>
+                </tr>
+                <tr>
+                  <td>Adobe Illustrator</td>
+                  <td>Inkscape, Vectr</td>
+                  <td>Vector graphics, logos</td>
+                </tr>
+                <tr>
+                  <td>Adobe Premiere Pro</td>
+                  <td>DaVinci Resolve, Shotcut</td>
+                  <td>Video editing</td>
+                </tr>
+                <tr>
+                  <td>Adobe InDesign</td>
+                  <td>Scribus, Canva</td>
+                  <td>Page layout, publishing</td>
+                </tr>
+                <tr>
+                  <td>Adobe Audition</td>
+                  <td>Audacity, Ocenaudio</td>
+                  <td>Audio editing, podcasts</td>
+                </tr>
+                <tr>
+                  <td>Maya/3ds Max</td>
+                  <td>Blender</td>
+                  <td>3D modeling, animation</td>
+                </tr>
+                <tr>
+                  <td>Microsoft Office</td>
+                  <td>LibreOffice, Google Workspace</td>
+                  <td>Documents, spreadsheets</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
         {/* Graphic Design */}
         <div className="mb-5">
@@ -121,6 +179,7 @@ const Alternatives = () => {
                   <h5 className="card-title text-teal-mid fw-bold">DaVinci Resolve</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe Premiere Pro</p>
                   <p className="card-text">Professional video editing, color correction, and audio post-production software used by Hollywood.</p>
+                  <p className="text-muted small mb-2"><strong>Note:</strong> Free version available; Studio version requires purchase</p>
                   <div className="d-flex gap-2 flex-wrap">
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                     <span className="badge bg-teal-light text-teal-dark">macOS</span>
@@ -197,6 +256,7 @@ const Alternatives = () => {
                   <h5 className="card-title text-teal-mid fw-bold">Canva (Free)</h5>
                   <p className="text-muted small mb-2">Alternative to: Adobe InDesign (Simplified)</p>
                   <p className="card-text">User-friendly design platform with thousands of templates for social media, presentations, and print.</p>
+                  <p className="text-muted small mb-2"><strong>Note:</strong> Free version available; Pro features require subscription</p>
                   <div className="d-flex gap-2 flex-wrap">
                     <span className="badge bg-teal-light text-teal-dark">Web-based</span>
                   </div>
@@ -310,6 +370,31 @@ const Alternatives = () => {
                   <a href="https://workspace.google.com/" target="_blank" rel="noopener noreferrer" 
                      className="btn btn-sm bg-teal-mid text-white hvr-grow mt-3">Visit Site</a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Getting Started Section */}
+        <div className="bg-teal-light p-4 rounded shadow-sm mb-5">
+          <h2 className="text-teal-mid fw-bolder mb-3 text-center">Getting Started with Free Software</h2>
+          <div className="row">
+            <div className="col-md-4 mb-3">
+              <div className="text-center">
+                <h4 className="text-teal-dark">1. Choose Your Tool</h4>
+                <p className="text-teal-mid">Review the alternatives above and select software that matches your needs.</p>
+              </div>
+            </div>
+            <div className="col-md-4 mb-3">
+              <div className="text-center">
+                <h4 className="text-teal-dark">2. Check System Requirements</h4>
+                <p className="text-teal-mid">Verify the software works on your operating system (Windows, macOS, or Linux).</p>
+              </div>
+            </div>
+            <div className="col-md-4 mb-3">
+              <div className="text-center">
+                <h4 className="text-teal-dark">3. Find Tutorials</h4>
+                <p className="text-teal-mid">Most free software has excellent YouTube tutorials and community documentation.</p>
               </div>
             </div>
           </div>

@@ -9,51 +9,68 @@ const Navbar = () => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
-            <li className="nav-item">
-              <Link className="nav-link text-teal-dark hvr-grow" href="/">Home</Link>
-            </li>
-
+            {/* About Us */}
             <li className="nav-item">
               <Link className="nav-link text-teal-dark hvr-grow" href="/about">About Us</Link>
             </li>
 
-            {/* Free Apps Dropdown */}
-            <li className="nav-item dropdown">
+            {/* Free Apps Mega Menu */}
+            <li className="nav-item dropdown mega-menu">
               <a className="nav-link dropdown-toggle text-teal-dark hvr-grow" href="#" id="freeAppsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Free Apps
               </a>
-              <ul className="dropdown-menu" aria-labelledby="freeAppsDropdown">
-                <li><Link className="dropdown-item" href="/free-apps/hosted">Hosted Web Apps</Link></li>
-                <li><Link className="dropdown-item" href="/free-apps/alternatives">Alternatives Application</Link></li>
-              </ul>
+              <div className="dropdown-menu mega-menu-content p-4" aria-labelledby="freeAppsDropdown">
+                <div className="row">
+                  <div className="col-md-6">
+                    <h6 className="dropdown-header">Hosted Apps</h6>
+                    <Link className="dropdown-item" href="/free-apps/hosted">Web Apps</Link>
+                    <Link className="dropdown-item" href="/free-apps/alternatives">Alternatives Application</Link>
+                  </div>
+                  <div className="col-md-6">
+                    <h6 className="dropdown-header">Other Apps</h6>
+                    {/* Add more links as needed */}
+                    <Link className="dropdown-item" href="/free-apps/tools">Additional Tools</Link>
+                  </div>
+                </div>
+              </div>
             </li>
 
-            {/* Resources Dropdown */}
-            <li className="nav-item dropdown">
+            {/* Resources Mega Menu */}
+            <li className="nav-item dropdown mega-menu">
               <a className="nav-link dropdown-toggle text-teal-dark hvr-grow" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Resources
               </a>
-              <ul className="dropdown-menu" aria-labelledby="resourcesDropdown">
-                <li><Link className="dropdown-item" href="/resources/tech">Tech Resources</Link></li>
-                <li><Link className="dropdown-item" href="/resources/guides">Guides & Tutorials</Link></li>
-              </ul>
+              <div className="dropdown-menu mega-menu-content p-4" aria-labelledby="resourcesDropdown">
+                <div className="row">
+                  <div className="col-md-6">
+                    <h6 className="dropdown-header">Tech Resources</h6>
+                    <Link className="dropdown-item" href="/resources/tech">Tech Resources</Link>
+                    <Link className="dropdown-item" href="/resources/guides">Guides & Tutorials</Link>
+                  </div>
+                  <div className="col-md-6">
+                    <h6 className="dropdown-header">Community Resources</h6>
+                    {/* Add more links if needed */}
+                    <Link className="dropdown-item" href="/resources/community">Community Tools</Link>
+                  </div>
+                </div>
+              </div>
             </li>
 
+            {/* Community */}
             <li className="nav-item">
               <Link className="nav-link text-teal-dark hvr-grow" href="/community">Community</Link>
             </li>
 
-            <li className="nav-item">
-              <Link className="nav-link text-teal-dark hvr-grow" href="/events">Events</Link>
-            </li>
-
+            {/* Blog */}
             <li className="nav-item">
               <Link className="nav-link text-teal-dark hvr-grow" href="/blog">Blog</Link>
             </li>
 
+            {/* Contact */}
             <li className="nav-item">
               <Link className="nav-link text-teal-dark hvr-grow" href="/contact">Contact</Link>
             </li>

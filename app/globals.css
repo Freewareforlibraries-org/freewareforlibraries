@@ -77,3 +77,13 @@ html body {
     opacity: 1;
   }
 }
+
+.mega-menu-content {
+  width: 600px; /* or whatever fits your design */
+  background-color: #f0f8f5;
+  border: 1px solid #ccc;
+}
+.mega-menu .dropdown-item {
+  padding: 5px 10px;
+}
+

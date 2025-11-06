@@ -10,7 +10,8 @@ const Alternatives = () => {
         </p>
         <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
           <p className="mb-0 text-center">
-            <strong>Pro Tip:</strong> Most of these applications are completely free and open-source. Some offer free versions with premium upgrades available.
+            <strong>Pro Tip:</strong> Most of these applications are completely free and open-source. Some offer free versions with premium upgrades available. A easy way to download these applications in bulk
+            is through <a href="www.ninite.com">ninite</a>!
           </p>
         </div>
 

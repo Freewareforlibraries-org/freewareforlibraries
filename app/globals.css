@@ -1,5 +1,6 @@
 html body {
   background-color:rgb(255, 203, 154, .3);
+  z-index: 1;
 }
 
 .text-teal-light {

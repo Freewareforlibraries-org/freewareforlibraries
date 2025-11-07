@@ -285,14 +285,18 @@ html body {
   .mega-menu-content {
     position: static;
     width: 100%;
-    display: block !important;
-    opacity: 1;
-    transform: translateY(0);
     box-shadow: none;
     border-top: none;
     border-left: 3px solid #0F6466;
     margin-top: 0.5rem;
     z-index: 9999;
+  }
+
+  .mega-menu.show .mega-menu-content,
+  .mega-menu-content.show {
+    display: block !important;
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .mega-menu-content .col-md-3::after {

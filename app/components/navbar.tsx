@@ -137,7 +137,7 @@ const Navbar = () => {
 
                     {/* Column 4 */}
                     <div className="col-md-3">
-                      <h6 className="dropdown-header"></h6>
+                      <h6 className="dropdown-header">Guides</h6>
                       <Link className="dropdown-item" href="/alternatives">Alternative Application Guide</Link>
                     </div>
 

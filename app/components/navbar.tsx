@@ -112,7 +112,7 @@ const Navbar = () => {
                     <div className="col-md-3">
                       <h6 className="dropdown-header">Open Source</h6>
                       <Link className="dropdown-item" href="/services">Library Management & Discovery</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Public Access & Patron Computing</Link>
+                      <Link className="dropdown-item" href="/digital-resources/pc-management">Public Access & Patron Computing</Link>
                       <Link className="dropdown-item" href="/programming-coding">Makerspace, Coding, & Creative Tools</Link>
                       <Link className="dropdown-item" href="/programming-coding">Website, CMS, and Communication</Link>
                        <Link className="dropdown-item" href="/services">Learning & Digital Literacy Platforms</Link>

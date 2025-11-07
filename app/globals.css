@@ -1,6 +1,5 @@
 html body {
   background-color:rgb(255, 203, 154, .3);
-  z-index: 1;
 }
 
 .text-teal-light {
@@ -54,6 +53,8 @@ html body {
 .fade-in {
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
+  position: relative;
+  z-index: 1;
 }
 
 @keyframes fadeIn {
@@ -68,6 +69,7 @@ html body {
 /* Mega Menu Custom Styles */
 .navbar .mega-menu {
   position: static;
+  z-index: 1050;
 }
 
 .mega-menu-content {
@@ -79,7 +81,7 @@ html body {
   display: none;
   background: linear-gradient(135deg, #D2E8E3 0%, #e0f7fa 100%);
   border-top: 3px solid #0F6466;
-  z-index: 1000;
+  z-index: 1040;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   opacity: 0;
   transform: translateY(-10px);
@@ -193,6 +195,9 @@ html body {
 .navbar {
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
+  position: sticky;
+  top: 0;
+  z-index: 1050;
 }
 
 .navbar-brand {

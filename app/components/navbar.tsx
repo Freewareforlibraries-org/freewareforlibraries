@@ -77,6 +77,57 @@ const Navbar = () => {
               </div>
             </li>
 
+                        {/* Digital Resources Mega Menu */}
+            <li className="nav-item dropdown mega-menu">
+              <a
+                className="nav-link dropdown-toggle text-teal-dark hvr-grow"
+                href="#"
+                id="resourcesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Digital Resources
+              </a>
+              <div className="dropdown-menu p-4 mega-menu-content" aria-labelledby="resourcesDropdown">
+                <div className="container">
+                  <div className="row">
+
+                    {/* Column 1 */}
+                    <div className="col-md-3">
+                      <h6 className="dropdown-header">Tech Resources</h6>
+                      <Link className="dropdown-item" href="/tech-resources">Tech Resources</Link>
+                      <Link className="dropdown-item" href="/resources/guides">Professional Development</Link>
+                      <Link className="dropdown-item" href="/resources/guides">Programming Ideas</Link>
+                    </div>
+
+                    {/* Column 2 */}
+                    <div className="col-md-3">
+                      <h6 className="dropdown-header">Programming Ideas</h6>
+                      <Link className="dropdown-item" href="/programming-gaming">Gaming in Your Library</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Coding Classes</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Digital Literacy</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Resume Building</Link>
+                    </div>
+
+                    {/* Column 3 */}
+                    <div className="col-md-3">
+                      <h6 className="dropdown-header">What We Offer</h6>
+                      <Link className="dropdown-item" href="/services">Overview</Link>
+                      <Link className="dropdown-item" href="/wp">Wireless Printing Tool</Link>
+                    </div>
+
+                    {/* Column 4 */}
+                    <div className="col-md-3">
+                      <h6 className="dropdown-header">Other Tools</h6>
+                      <Link className="dropdown-item" href="/alternatives">Alternative Application Guide</Link>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+
             {/* Blog */}
             <li className="nav-item">
               <Link className="nav-link text-teal-dark hvr-grow" href="/blog">Blog</Link>

@@ -137,6 +137,7 @@ html body {
   margin-bottom: 0.25rem;
   position: relative;
   overflow: hidden;
+  z-index: 9999;
 }
 
 .item-bullet {

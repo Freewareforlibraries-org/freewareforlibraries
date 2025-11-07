@@ -3,14 +3,11 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-teal-light shadow-sm sticky-top">
-      <div className="container-fluid px-4">
-        <Link className="navbar-brand text-teal-dark fw-bold d-flex align-items-center" href="/">
-          Freeware for Libraries
-        </Link>
-        
+    <nav className="navbar navbar-expand-lg bg-teal-light text-cream-dark shadow">
+      <div className="container-fluid">
+        <Link className="navbar-brand text-teal-dark fw-bolder" href="/">Freeware for Libraries</Link>
         <button
-          className="navbar-toggler border-0"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -22,108 +19,57 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2">
-            
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+
             {/* About Us */}
             <li className="nav-item">
-              <Link className="nav-link text-teal-dark fw-semibold px-3 py-2" href="/about">
-                About Us
-              </Link>
+              <Link className="nav-link text-teal-dark hvr-grow" href="/about">About Us</Link>
             </li>
 
             {/* Community Resources Mega Menu */}
-            <li className="nav-item dropdown mega-menu position-static">
+            <li className="nav-item dropdown mega-menu">
               <a
-                className="nav-link dropdown-toggle text-teal-dark fw-semibold px-3 py-2"
+                className="nav-link dropdown-toggle text-teal-dark hvr-grow"
                 href="#"
                 id="resourcesDropdown"
                 role="button"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Community Resources
               </a>
-              <div className="dropdown-menu w-100 border-0 mega-menu-content" aria-labelledby="resourcesDropdown">
-                <div className="container-fluid py-4">
-                  <div className="row g-4">
-                    
-                    {/* Column 1 - Tech Resources */}
-                    <div className="col-lg-3 col-md-6">
-                      <div className="mega-menu-section">
-                        <h6 className="dropdown-header">
-                          <span className="header-icon">💻</span>
-                          Tech Resources
-                        </h6>
-                        <Link className="dropdown-item" href="/tech-resources">
-                          <span className="item-bullet">→</span>
-                          Tech Resources Hub
-                        </Link>
-                        <Link className="dropdown-item" href="/resources/guides">
-                          <span className="item-bullet">→</span>
-                          Professional Development
-                        </Link>
-                        <Link className="dropdown-item" href="/resources/guides">
-                          <span className="item-bullet">→</span>
-                          Programming Ideas
-                        </Link>
-                      </div>
+              <div className="dropdown-menu p-4 mega-menu-content" aria-labelledby="resourcesDropdown">
+                <div className="container">
+                  <div className="row">
+
+                    {/* Column 1 */}
+                    <div className="col-md-3">
+                      <h6 className="dropdown-header">Tech Resources</h6>
+                      <Link className="dropdown-item" href="/tech-resources">Tech Resources</Link>
+                      <Link className="dropdown-item" href="/resources/guides">Professional Development</Link>
+                      <Link className="dropdown-item" href="/resources/guides">Programming Ideas</Link>
                     </div>
 
-                    {/* Column 2 - Programming Ideas */}
-                    <div className="col-lg-3 col-md-6">
-                      <div className="mega-menu-section">
-                        <h6 className="dropdown-header">
-                          <span className="header-icon">🎯</span>
-                          Programming Ideas
-                        </h6>
-                        <Link className="dropdown-item" href="/programming-gaming">
-                          <span className="item-bullet">→</span>
-                          Gaming in Your Library
-                        </Link>
-                        <Link className="dropdown-item" href="/programming-coding">
-                          <span className="item-bullet">→</span>
-                          Coding Classes
-                        </Link>
-                        <Link className="dropdown-item" href="/programming-coding">
-                          <span className="item-bullet">→</span>
-                          Digital Literacy
-                        </Link>
-                        <Link className="dropdown-item" href="/programming-coding">
-                          <span className="item-bullet">→</span>
-                          Resume Building
-                        </Link>
-                      </div>
+                    {/* Column 2 */}
+                    <div className="col-md-3">
+                      <h6 className="dropdown-header">Programming Ideas</h6>
+                      <Link className="dropdown-item" href="/programming-gaming">Gaming in Your Library</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Coding Classes</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Digital Literacy</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Resume Building</Link>
                     </div>
 
-                    {/* Column 3 - What We Offer */}
-                    <div className="col-lg-3 col-md-6">
-                      <div className="mega-menu-section">
-                        <h6 className="dropdown-header">
-                          <span className="header-icon">⚡</span>
-                          What We Offer
-                        </h6>
-                        <Link className="dropdown-item" href="/services">
-                          <span className="item-bullet">→</span>
-                          Services Overview
-                        </Link>
-                        <Link className="dropdown-item" href="/wp">
-                          <span className="item-bullet">→</span>
-                          Wireless Printing Tool
-                        </Link>
-                      </div>
+                    {/* Column 3 */}
+                    <div className="col-md-3">
+                      <h6 className="dropdown-header">What We Offer</h6>
+                      <Link className="dropdown-item" href="/services">Overview</Link>
+                      <Link className="dropdown-item" href="/wp">Wireless Printing Tool</Link>
                     </div>
 
-                    {/* Column 4 - Other Tools */}
-                    <div className="col-lg-3 col-md-6">
-                      <div className="mega-menu-section">
-                        <h6 className="dropdown-header">
-                          <span className="header-icon">🛠️</span>
-                          Other Tools
-                        </h6>
-                        <Link className="dropdown-item" href="/alternatives">
-                          <span className="item-bullet">→</span>
-                          Alternative Apps Guide
-                        </Link>
-                      </div>
+                    {/* Column 4 */}
+                    <div className="col-md-3">
+                      <h6 className="dropdown-header">Other Tools</h6>
+                      <Link className="dropdown-item" href="/alternatives">Alternative Application Guide</Link>
                     </div>
 
                   </div>
@@ -133,19 +79,12 @@ const Navbar = () => {
 
             {/* Blog */}
             <li className="nav-item">
-              <Link className="nav-link text-teal-dark fw-semibold px-3 py-2" href="/blog">
-                Blog
-              </Link>
+              <Link className="nav-link text-teal-dark hvr-grow" href="/blog">Blog</Link>
             </li>
 
             {/* Contact */}
             <li className="nav-item">
-              <Link 
-                className="nav-link text-teal-dark fw-semibold px-3 py-2 contact-link" 
-                href="/contact"
-              >
-                Contact
-              </Link>
+              <Link className="nav-link text-teal-dark hvr-grow" href="/contact">Contact</Link>
             </li>
 
           </ul>

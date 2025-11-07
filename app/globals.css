@@ -272,7 +272,7 @@ html body {
 @media (max-width: 991px) {
   .navbar .mega-menu {
     position: relative;
-    z-index: -1;
+    z-index: 9999;
   }
   
   .mega-menu-content {
@@ -285,6 +285,7 @@ html body {
     border-top: none;
     border-left: 3px solid #0F6466;
     margin-top: 0.5rem;
+    z-index: 9999;
   }
 
   .mega-menu-content .col-md-3::after {

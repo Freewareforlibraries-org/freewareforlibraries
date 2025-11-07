@@ -29,7 +29,7 @@ const Navbar = () => {
             </li>
 
             {/* Community Resources Mega Menu */}
-            <li className="nav-item dropdown mega-menu">
+            <li className="nav-item dropdown mega-menu position-static">
               <a
                 className="nav-link dropdown-toggle text-teal-dark hvr-grow"
                 href="#"
@@ -39,8 +39,8 @@ const Navbar = () => {
               >
                 Community Resources
               </a>
-              <div className="dropdown-menu p-4 mega-menu-content" aria-labelledby="resourcesDropdown">
-                <div className="container">
+              <div className="dropdown-menu w-100 p-4 mega-menu-content" aria-labelledby="resourcesDropdown">
+                <div className="container-fluid">
                   <div className="row">
                     {/* Column 1 */}
                     <div className="col-md-3">

@@ -1,66 +1,52 @@
 html body {
-
   background-color:rgb(255, 203, 154, .3);
-
 }
 
 .text-teal-light {
-
   color: #D2E8E3;
 }
 
 .text-teal-mid {
-
   color: #0F6466;
 }
 
 .text-teal-dark {
-
   color: #2C3532;
 }
 
 .text-cream-dark {
-
   color: #D8B08C;
 }
 
 .text-cream-light {
-
   color: #FFCB9A;
 }
 
-
-
 .bg-teal-light {
-
   background-color: #D2E8E3;
 }
 
 .bg-teal-mid {
-
   background-color: #0F6466;
 }
 
 .bg-teal-dark {
-
   background-color: #2C3532;
 }
 
 .bg-cream-dark {
-
   background-color: #D8B08C;
 }
 
 .bg-cream-light {
-
   background-color:#FFCB9A;
 }
 
 .shadow-footer{
-  margin-right:0px; /* Set to 0 if you don't want shadow at the right side */
-  margin-left:0px; /* Set to 20px if you want shadow at the left side */
-  margin-top:20px; /* Set to 20px if you want shadow at the top side */
-  margin-bottom:0px; /* Set to 20px if you want shadow at the bottom side */
+  margin-right:0px;
+  margin-left:0px;
+  margin-top:20px;
+  margin-bottom:0px;
   box-shadow: 0 .5rem 4rem rgba(0, 0, 0, 0.25);
 }
 
@@ -79,19 +65,25 @@ html body {
 }
 
 /* Mega Menu Custom Styles */
+.navbar .mega-menu {
+  position: static;
+}
+
 .mega-menu-content {
   position: absolute;
   width: 100%;
   left: 0;
+  right: 0;
   top: 100%;
-  display: none; /* hidden by default */
-  background-color: #e0f7fa; /* light teal */
-  border-top: 3px solid #008080; /* teal accent */
+  display: none;
+  background-color: #e0f7fa;
+  border-top: 3px solid #008080;
   z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .mega-menu:hover .mega-menu-content {
-  display: block; /* show on hover */
+  display: block;
 }
 
 .mega-menu-content .dropdown-header {
@@ -111,11 +103,13 @@ html body {
 }
 
 @media (max-width: 991px) {
-  /* Keep default Bootstrap behavior on mobile */
+  .navbar .mega-menu {
+    position: relative;
+  }
+  
   .mega-menu-content {
     position: static;
     width: 100%;
     display: block !important;
   }
 }
-

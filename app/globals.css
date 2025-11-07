@@ -76,30 +76,102 @@ html body {
   right: 0;
   top: 100%;
   display: none;
-  background-color: #e0f7fa;
-  border-top: 3px solid #008080;
+  background: linear-gradient(135deg, #D2E8E3 0%, #E8F4F2 100%);
+  border-top: 3px solid #0F6466;
   z-index: 999;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 40px rgba(15, 100, 102, 0.15);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .mega-menu:hover .mega-menu-content {
   display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mega-menu-content .container-fluid {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .mega-menu-content .dropdown-header {
-  font-weight: 600;
-  color: #006666;
-  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #0F6466;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #0F6466;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .mega-menu-content .dropdown-item {
-  color: #004d4d;
-  padding: 0.25rem 0;
+  color: #2C3532;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
 }
 
 .mega-menu-content .dropdown-item:hover {
-  background-color: #b2dfdb;
-  color: #003333;
+  background: linear-gradient(135deg, #0F6466 0%, #1a8a8c 100%);
+  color: #ffffff;
+  transform: translateX(8px);
+  box-shadow: 0 4px 12px rgba(15, 100, 102, 0.2);
+}
+
+.mega-menu-content .dropdown-item::before {
+  content: "→";
+  margin-right: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  font-weight: bold;
+}
+
+.mega-menu-content .dropdown-item:hover::before {
+  opacity: 1;
+}
+
+.mega-menu-content .col-md-3 {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.mega-menu-content .col-md-3:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10%;
+  height: 80%;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, #0F6466, transparent);
+}
+
+/* Navbar link hover effects */
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: #0F6466;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 @media (max-width: 991px) {
@@ -111,5 +183,17 @@ html body {
     position: static;
     width: 100%;
     display: block !important;
+    opacity: 1;
+    transform: translateY(0);
+    box-shadow: none;
+    background: #E8F4F2;
+  }
+
+  .mega-menu-content .col-md-3:not(:last-child)::after {
+    display: none;
+  }
+
+  .mega-menu-content .dropdown-item:hover {
+    transform: translateX(4px);
   }
 }

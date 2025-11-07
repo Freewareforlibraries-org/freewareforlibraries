@@ -272,6 +272,7 @@ html body {
 @media (max-width: 991px) {
   .navbar .mega-menu {
     position: relative;
+    z-index: -1;
   }
   
   .mega-menu-content {

@@ -94,6 +94,19 @@ html body {
   transform: translateY(0);
 }
 
+/* Disable hover on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .mega-menu:hover .mega-menu-content {
+    display: none;
+  }
+  
+  .mega-menu.show .mega-menu-content {
+    display: block !important;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .mega-menu-content .container-fluid {
   max-width: 1400px;
   margin: 0 auto;
@@ -277,6 +290,11 @@ html body {
 }
 
 @media (max-width: 991px) {
+  /* Disable hover on mobile - only use click */
+  .mega-menu:hover .mega-menu-content {
+    display: none;
+  }
+  
   .navbar .mega-menu {
     position: relative;
     z-index: 9999;

@@ -78,12 +78,44 @@ html body {
   }
 }
 
+/* Mega Menu Custom Styles */
 .mega-menu-content {
-  width: 600px; /* or whatever fits your design */
-  background-color: #f0f8f5;
-  border: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  display: none; /* hidden by default */
+  background-color: #e0f7fa; /* light teal */
+  border-top: 3px solid #008080; /* teal accent */
+  z-index: 999;
 }
-.mega-menu .dropdown-item {
-  padding: 5px 10px;
+
+.mega-menu:hover .mega-menu-content {
+  display: block; /* show on hover */
+}
+
+.mega-menu-content .dropdown-header {
+  font-weight: 600;
+  color: #006666;
+  margin-bottom: 0.5rem;
+}
+
+.mega-menu-content .dropdown-item {
+  color: #004d4d;
+  padding: 0.25rem 0;
+}
+
+.mega-menu-content .dropdown-item:hover {
+  background-color: #b2dfdb;
+  color: #003333;
+}
+
+@media (max-width: 991px) {
+  /* Keep default Bootstrap behavior on mobile */
+  .mega-menu-content {
+    position: static;
+    width: 100%;
+    display: block !important;
+  }
 }
 

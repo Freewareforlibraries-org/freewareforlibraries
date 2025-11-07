@@ -6,7 +6,6 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-teal-light shadow-sm sticky-top">
       <div className="container-fluid px-4">
         <Link className="navbar-brand text-teal-dark fw-bold d-flex align-items-center" href="/">
-          <span className="brand-icon me-2">📚</span>
           <span className="brand-text">Freeware for Libraries</span>
         </Link>
         

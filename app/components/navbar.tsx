@@ -63,9 +63,10 @@ const Navbar = () => {
 
                     {/* Column 3 */}
                     <div className="col-md-3">
-                      <h6 className="dropdown-header">Websites & Web Applications</h6>
+                      <h6 className="dropdown-header">Website Mangement</h6>
                       <Link className="dropdown-item" href="/wp">Development & Technical Tools</Link>
                       <Link className="dropdown-item" href="/wp">Standards & Beest Practices</Link>
+                      <Link className="dropdown-item" href="/wp">Accessibility</Link>
                       <Link className="dropdown-item" href="/wp">Hosting Solutions</Link>
                     </div>
 
@@ -110,10 +111,16 @@ const Navbar = () => {
                     {/* Column 2 */}
                     <div className="col-md-3">
                       <h6 className="dropdown-header">Open Source</h6>
-                      <Link className="dropdown-item" href="/services">Integrated Library Systems (ILS)</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Alternative Computer Applications</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Digital Repositories / Archives</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Catalog & Discovery Interfaces (OPAC / Discovery Layers)</Link>
+                      <Link className="dropdown-item" href="/services">Library Management & Discovery</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Public Access & Patron Computing</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Makerspace, Coding, & Creative Tools</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Website, CMS, and Communication</Link>
+                       <Link className="dropdown-item" href="/services">Learning & Digital Literacy Platforms</Link>
+                      <Link className="dropdown-item" href="/programming-coding">IT Infrastructure & Support</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Data, Research, and Analytics</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Patron Engagement & Programming</Link>
+                       <Link className="dropdown-item" href="/programming-coding">Accessibility & Assistive Technology</Link>
+                      <Link className="dropdown-item" href="/programming-coding">Privacy & Security</Link>
                     </div>
 
                     {/* Column 3 */}

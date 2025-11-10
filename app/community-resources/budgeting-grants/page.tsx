@@ -156,8 +156,7 @@ const LibraryGrantsFunding = () => {
                 <span className="badge bg-teal-light text-teal-dark">Technology Upgrades</span>
                 <span className="badge bg-teal-light text-teal-dark">Time-Limited</span>
               </div>
-              <a href="https://www.library.arkansas.gov/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Check State Library</a>
-            </div>
+             </div>
           </div>
 
           {/* Private & Foundation Grants */}

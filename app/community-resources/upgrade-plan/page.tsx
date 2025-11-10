@@ -64,7 +64,7 @@ const TechUpgradePlan = () => {
             </div>
 
             <div className="alert alert-success border-0 mt-3">
-              <p className="mb-0"><strong>💡 Tip:</strong> A spreadsheet or database works best to track inventory, including serial numbers, locations, and support contracts.</p>
+              <p className="mb-0"><strong>Tip:</strong> A spreadsheet or database works best to track inventory, including serial numbers, locations, and support contracts.</p>
             </div>
           </div>
 
@@ -101,7 +101,7 @@ const TechUpgradePlan = () => {
               <li className="mb-2">Ensure accessibility and inclusivity for all patrons</li>
             </ul>
             <div className="alert alert-success border-0">
-              <p className="mb-0"><strong>💡 Tip:</strong> Make goals SMART (Specific, Measurable, Achievable, Relevant, Time-bound).</p>
+              <p className="mb-0"><strong>Tip:</strong> Make goals SMART (Specific, Measurable, Achievable, Relevant, Time-bound).</p>
             </div>
           </div>
 
@@ -155,7 +155,7 @@ const TechUpgradePlan = () => {
             </div>
 
             <div className="alert alert-success border-0">
-              <p className="mb-0"><strong>💡 Tip:</strong> Assign responsibility and track status to ensure accountability.</p>
+              <p className="mb-0"><strong>Tip:</strong> Assign responsibility and track status to ensure accountability.</p>
             </div>
           </div>
 

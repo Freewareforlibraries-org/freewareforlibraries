@@ -351,7 +351,7 @@ const LibraryOrganizations = () => {
                 <span className="badge bg-teal-light text-teal-dark">Local Networking</span>
                 <span className="badge bg-teal-light text-teal-dark">State-Specific</span>
               </div>
-              <a href="https://www.ala.org/aboutala/offices/chapters" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Find Your State Association</a>
+              <a href="https://www.ala.org/aboutala/affiliates/chapters/state/stateregional" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Find Your State Association</a>
             </div>
           </div>
 

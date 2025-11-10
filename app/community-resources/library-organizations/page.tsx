@@ -6,7 +6,7 @@ const LibraryOrganizations = () => {
       <div className="container p-4">   
         <h1 className="display-1 text-teal-mid fw-bolder text-center">National & International Library Organizations</h1>
         <p className="fs-5 text-teal-mid text-center mb-3">
-          Professional associations, networks, and resources for library technology and innovation
+          
         </p>
 
         {/* Main Content in Single Column */}

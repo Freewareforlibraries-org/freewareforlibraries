@@ -116,7 +116,7 @@ const LibraryCommunities = () => {
                 <span className="badge bg-teal-light text-teal-dark">STEAM</span>
                 <span className="badge bg-teal-light text-teal-dark">Innovation</span>
               </div>
-              <a href="https://discuss.plix.media.mit.edu/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit PLIX Forum</a>
+              <a href="https://heyplix.mit.edu/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit PLIX Forum</a>
             </div>
           </div>
 
@@ -148,7 +148,7 @@ const LibraryCommunities = () => {
                 <span className="badge bg-teal-light text-teal-dark">Email Lists</span>
                 <span className="badge bg-teal-light text-teal-dark">Specialized Topics</span>
               </div>
-              <a href="https://www.ala.org/news/member-news/discussion-lists" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Browse ALA Lists</a>
+              <a href="https://www.ala.org/acrl/aboutacrl/directoryofleadership/sections/sectionaldiscussion" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Browse ALA Lists</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
@@ -171,7 +171,7 @@ const LibraryCommunities = () => {
                 <span className="badge bg-teal-light text-teal-dark">IT Section</span>
                 <span className="badge bg-teal-light text-teal-dark">Global Standards</span>
               </div>
-              <a href="https://www.ifla.org/mailing-lists/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">View IFLA Lists</a>
+              <a href="https://www.ifla.org/sign-up-to-a-mailing-list/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">View IFLA Lists</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
@@ -194,7 +194,7 @@ const LibraryCommunities = () => {
                 <span className="badge bg-teal-light text-teal-dark">Active Community</span>
                 <span className="badge bg-teal-light text-teal-dark">Established</span>
               </div>
-              <a href="https://www.webjunction.org/explore-topics/publib.html" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Learn About PUBLIB</a>
+              <a href="https://www.webjunction.org/documents/webjunction/PubLib_Overview.html" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Learn About PUBLIB</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

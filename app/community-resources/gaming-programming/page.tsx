@@ -176,7 +176,7 @@ const GamingInLibraries = () => {
                 <li>Leverage ALA's International Games Month (each November)</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Gaming programs may attract patrons who don't usually attend traditional library programs—make the most of this outreach opportunity!</p>
+                <p className="mb-0"><strong>Tip:</strong> Gaming programs may attract patrons who don't usually attend traditional library programs—make the most of this outreach opportunity!</p>
               </div>
             </div>
 

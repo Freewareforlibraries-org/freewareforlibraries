@@ -4,7 +4,7 @@ const WebDevTools = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-4">Website Development & Management Tools</h1>
+        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-4">Website Development Tools</h1>
         
         <div className="mx-auto mb-5" style={{maxWidth: '900px'}}>
           <p className="lead text-center mb-5">

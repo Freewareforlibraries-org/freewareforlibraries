@@ -65,7 +65,7 @@ const LibraryGrantsFunding = () => {
                 <span className="badge bg-teal-light text-teal-dark">Technology</span>
                 <span className="badge bg-teal-light text-teal-dark">Innovation</span>
               </div>
-              <a href="https://www.ala.org/awardsgrants/awards/browse/filter" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Browse ALA Grants</a>
+              <a href="https://www.ala.org/awards" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Browse ALA Grants</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
@@ -134,10 +134,8 @@ const LibraryGrantsFunding = () => {
                 <span className="badge bg-teal-light text-teal-dark">Website Development</span>
                 <span className="badge bg-teal-light text-teal-dark">Technology Equipment</span>
               </div>
-              <a href="https://www.library.arkansas.gov/grants-and-funding" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">Arkansas Grants</a>
-              <a href="https://libraries.ok.gov/grants/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow me-2">Oklahoma</a>
-              <a href="https://kdla.ky.gov/librarians/grant/Pages/default.aspx" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Kentucky</a>
-            </div>
+              <a href="https://library.arkansas.gov/about-us/imls-grants/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">Arkansas Grants</a>
+             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
@@ -195,8 +193,7 @@ const LibraryGrantsFunding = () => {
                 <span className="badge bg-teal-light text-teal-dark">Community Impact</span>
               </div>
               <a href="https://www.imls.gov/grants" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">IMLS Grants</a>
-              <a href="https://www.ala.org/awardsgrants/finding-funding-your-library" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Find More Funding</a>
-            </div>
+              </div>
           </div>
 
           {/* Grant Writing Tips */}

@@ -87,8 +87,8 @@ const LibraryPCManagement = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://libki.org/about/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://libki.org/about/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
+                    <a href="https://libki.org/download/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=libki+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -113,7 +113,7 @@ const LibraryPCManagement = () => {
                     <a href="https://github.com/LibreBooking/app" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit GitHub</a>
                     <a href="https://github.com/LibreBooking/app" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=librebooking+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -127,7 +127,7 @@ const LibraryPCManagement = () => {
                   <div className="mb-2">
                     <span className="badge bg-success">Intermediate</span>
                   </div>
-                  <h5 className="card-title text-teal-mid fw-bold">classroombookings</h5>
+                  <h5 className="card-title text-teal-mid fw-bold">Classroom Bookings</h5>
                   <p className="text-muted small mb-2">Room & Computer Suite Booking</p>
                   <p className="card-text">Open-source booking system designed for room and computer suite scheduling with multi-user support. Primarily for bookings; needs custom integration for session enforcement.</p>
                   <p className="text-muted small mb-2"><strong>License:</strong> Open Source</p>
@@ -137,8 +137,8 @@ const LibraryPCManagement = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.classroombookings.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.classroombookings.com/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
+                    <a href="https://www.classroombookings.com/self-host/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=classroombookings+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -151,7 +151,7 @@ const LibraryPCManagement = () => {
         {/* Print Management */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            <i className="bi bi-printer"></i> Print Management & Quotas
+            <i className="bi bi-printer"></i> Print Management
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">
@@ -172,8 +172,8 @@ const LibraryPCManagement = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://libki.org/about/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://libki.org/about/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
+                    <a href="https://libki.org/download/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=libki+print+management" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -197,8 +197,8 @@ const LibraryPCManagement = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.savapage.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.savapage.org/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
+                    <a href="hhttps://wiki.savapage.org/doku.php?id=software_packages" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=savapage+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -211,7 +211,7 @@ const LibraryPCManagement = () => {
         {/* System Baseline & Restore */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            <i className="bi bi-arrow-clockwise"></i> System Baseline & Restore-on-Reboot
+            <i className="bi bi-arrow-clockwise"></i> Deepfreeze Alternatives
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">

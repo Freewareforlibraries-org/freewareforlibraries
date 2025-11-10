@@ -132,7 +132,6 @@ const LibraryGrantsFunding = () => {
                 <span className="badge bg-teal-light text-teal-dark">Website Development</span>
                 <span className="badge bg-teal-light text-teal-dark">Technology Equipment</span>
               </div>
-              <a href="https://library.arkansas.gov/about-us/imls-grants/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">Arkansas Grants</a>
              </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

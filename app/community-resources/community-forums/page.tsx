@@ -4,10 +4,10 @@ const LibraryCommunities = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center">Library Technology Communities & Forums</h1>
-        <p className="fs-5 text-teal-mid text-center mb-3">
-          Online communities, discussion forums, and mailing lists for library IT professionals
-        </p>
+        <h1 className="display-1 text-teal-mid fw-bolder text-center">Communities & Forums</h1>
+      <div className="pb-3 mb-3">
+          
+        </div>
         <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
           <p className="mb-0 text-center">
             <strong>Pro Tip:</strong> These communities connect you with thousands of library technology professionals 

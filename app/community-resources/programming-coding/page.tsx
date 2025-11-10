@@ -25,7 +25,7 @@ const CodingInLibraries = () => {
                 <li>Even libraries without prior coding expertise can run successful programs with the right tools and support</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Insight:</strong> Coding programs extend your library's mission of providing equitable access to education and technology for all community members.</p>
+                <p className="mb-0"><strong>Insight:</strong> Coding programs extend your library's mission of providing equitable access to education and technology for all community members.</p>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const CodingInLibraries = () => {
                 <li>Ready-to-run platforms available that provide training for librarians</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> You don't need to be a coding expert! Many platforms provide complete training and curriculum for library staff.</p>
+                <p className="mb-0"><strong>Tip:</strong> You don't need to be a coding expert! Many platforms provide complete training and curriculum for library staff.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Structured</span>
@@ -153,7 +153,7 @@ const CodingInLibraries = () => {
                 <li>Offer small prizes for winners</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Note:</strong> Some coding platforms supporting libraries offer competition modules to make planning easier.</p>
+                <p className="mb-0"><strong>Note:</strong> Some coding platforms supporting libraries offer competition modules to make planning easier.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Competitive</span>
@@ -221,7 +221,7 @@ const CodingInLibraries = () => {
               </div>
 
               <div className="alert alert-success border-0 mb-0">
-                <p className="mb-0"><strong>💡 Real Example:</strong> Santa Clara City Library offers "Check Out & Code Kits" (Chromebooks + instruction) for ages 5+ that patrons can take home.</p>
+                <p className="mb-0"><strong>Real Example:</strong> Santa Clara City Library offers "Check Out & Code Kits" (Chromebooks + instruction) for ages 5+ that patrons can take home.</p>
               </div>
             </div>
           </div>

@@ -66,7 +66,7 @@ const Navbar = () => {
                       <Link className="dropdown-item" href="/community-resources/development-tools">Development Tools</Link>
                       <Link className="dropdown-item" href="/community-resources/developer-best-practices">Standards & Best Practices</Link>
                       <Link className="dropdown-item" href="/community-resources/accessibility">Accessibility</Link>
-                      <Link className="dropdown-item" href="/wp">Hosting Solutions</Link>
+                      <Link className="dropdown-item" href="/community-resources/hosting-options">Hosting Solutions</Link>
                     </div>
 
                     {/* Column 4 */}

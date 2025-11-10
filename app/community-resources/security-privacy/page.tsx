@@ -604,34 +604,6 @@ const LibraryPrivacySecurity = () => {
               <div className="card h-100 shadow-sm d-flex flex-column">
                 <div className="card-body d-flex flex-column">
                   <div className="mb-2">
-                    <span className="badge bg-success">Intermediate</span>
-                  </div>
-                  <h5 className="card-title text-teal-mid fw-bold">Tor Browser</h5>
-                  <p className="text-muted small mb-2">Anonymous Web Browsing</p>
-                  <p className="card-text">Routes traffic through Tor network for anonymous browsing. Critical resource for patrons needing privacy from surveillance or censorship.</p>
-                  <p className="text-muted small mb-2"><strong>License:</strong> Open Source (BSD)</p>
-                  <div className="d-flex gap-2 flex-wrap mb-3">
-                    <span className="badge bg-teal-light text-teal-dark">Windows</span>
-                    <span className="badge bg-teal-light text-teal-dark">Linux</span>
-                    <span className="badge bg-teal-light text-teal-dark">macOS</span>
-                    <span className="badge bg-teal-light text-teal-dark">Android</span>
-                  </div>
-                  <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://www.torproject.org/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.torproject.org/download/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
-                    <a href="https://www.youtube.com/results?search_query=tor+browser+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="card h-100 shadow-sm d-flex flex-column">
-                <div className="card-body d-flex flex-column">
-                  <div className="mb-2">
                     <span className="badge bg-info text-dark">Beginner</span>
                   </div>
                   <h5 className="card-title text-teal-mid fw-bold">BleachBit</h5>

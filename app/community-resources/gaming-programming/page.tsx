@@ -25,7 +25,7 @@ const GamingInLibraries = () => {
                 <li>Supports information literacy, creativity, critical thinking, and digital literacy</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Insight:</strong> Gaming programs go beyond recreation—they can support broader library goals like information literacy and digital skills development.</p>
+                <p className="mb-0"><strong>Insight:</strong> Gaming programs go beyond recreation—they can support broader library goals like information literacy and digital skills development.</p>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const GamingInLibraries = () => {
                 <li>Security concerns (theft and damage risks)</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Consider locking equipment when not in use and establishing clear policies for usage, time limits, and age restrictions.</p>
+                <p className="mb-0"><strong>Tip:</strong> Consider locking equipment when not in use and establishing clear policies for usage, time limits, and age restrictions.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">High Tech</span>

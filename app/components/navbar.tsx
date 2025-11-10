@@ -54,7 +54,7 @@ const Navbar = () => {
                     {/* Column 2 */}
                     <div className="col-md-3">
                       <h6 className="dropdown-header">Technical Resources</h6>
-                      <Link className="dropdown-item" href="/programming-gaming">Security and Privacy</Link>
+                      <Link className="dropdown-item" href="/community-resources/security-privacy">Security and Privacy</Link>
                       <Link className="dropdown-item" href="/programming-coding">IT Infrastructure</Link>
                       <Link className="dropdown-item" href="/programming-coding">Hardware & Software Support</Link>
                       <Link className="dropdown-item" href="/programming-coding">Upgrade plan</Link>

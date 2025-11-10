@@ -4,16 +4,8 @@ const LibraryOrganizations = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center">Library Organizations</h1>
-        <div className="pb-2 mb-1">
-          
-        </div>
-          <div className="alert alert-info border-0 shadow-sm mx-auto mb-4" style={{maxWidth: '800px'}} role="alert">
-          <p className="mb-0 text-center">
-            These organizations offer technology resources, professional development, 
-            advocacy, and networking opportunities for library IT professionals and technology-minded librarians!
-          </p>
-        </div>
+        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Library Organizations</h1>
+
         {/* Main Content in Single Column */}
         <div className="mx-auto" style={{maxWidth: '900px'}}>
           

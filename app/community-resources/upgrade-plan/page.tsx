@@ -269,25 +269,6 @@ const TechUpgradePlan = () => {
             </div>
           </div>
 
-          {/* Conclusion */}
-          <div className="p-4 bg-white shadow-sm rounded text-center">
-            <h4 className="text-teal-mid fw-bold mb-3">Ready to Build Your Upgrade Plan?</h4>
-            <p className="mb-4">This structured approach ensures your public library's technology is up-to-date, reliable, and ready to support staff and patron needs for years to come.</p>
-            <div className="d-flex gap-3 justify-content-center flex-wrap">
-              <span className="badge bg-teal-light text-teal-dark" style={{fontSize: '0.9rem', padding: '8px 16px'}}>
-                <i className="bi bi-gear me-2"></i>Systematic Updates
-              </span>
-              <span className="badge bg-teal-light text-teal-dark" style={{fontSize: '0.9rem', padding: '8px 16px'}}>
-                <i className="bi bi-cash-stack me-2"></i>Budget Control
-              </span>
-              <span className="badge bg-teal-light text-teal-dark" style={{fontSize: '0.9rem', padding: '8px 16px'}}>
-                <i className="bi bi-shield-check me-2"></i>Minimal Disruption
-              </span>
-              <span className="badge bg-teal-light text-teal-dark" style={{fontSize: '0.9rem', padding: '8px 16px'}}>
-                <i className="bi bi-arrow-up-circle me-2"></i>Improved Services
-              </span>
-            </div>
-          </div>
 
         </div>
       </div>

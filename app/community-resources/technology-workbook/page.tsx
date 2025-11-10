@@ -249,26 +249,6 @@ const WorkbookGuide = () => {
             </div>
           </div>
 
-          {/* Conclusion */}
-          <div className="p-4 bg-white shadow-sm rounded text-center">
-            <h4 className="text-teal-mid fw-bold mb-3">Ready to Get Started?</h4>
-            <p className="mb-4">This approach will help you create a structured, actionable, and easy-to-use Library Technology Workbook to manage your IT infrastructure effectively.</p>
-            <div className="d-flex gap-3 justify-content-center flex-wrap">
-              <span className="badge bg-teal-light text-teal-dark" style={{fontSize: '0.9rem', padding: '8px 16px'}}>
-                <i className="bi bi-clipboard-check me-2"></i>Organized Planning
-              </span>
-              <span className="badge bg-teal-light text-teal-dark" style={{fontSize: '0.9rem', padding: '8px 16px'}}>
-                <i className="bi bi-graph-up me-2"></i>Track Progress
-              </span>
-              <span className="badge bg-teal-light text-teal-dark" style={{fontSize: '0.9rem', padding: '8px 16px'}}>
-                <i className="bi bi-people me-2"></i>Team Accountability
-              </span>
-              <span className="badge bg-teal-light text-teal-dark" style={{fontSize: '0.9rem', padding: '8px 16px'}}>
-                <i className="bi bi-arrow-repeat me-2"></i>Continuous Improvement
-              </span>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>

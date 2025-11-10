@@ -1,323 +1,221 @@
 import React from 'react'
 
-const GamingInLibraries = () => {
+const AccessibilityGuidelines = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Gaming in Libraries</h1>
+        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Web Accessibility Guidelines</h1>
         
         {/* Main Content in Single Column */}
         <div className="mx-auto" style={{maxWidth: '900px'}}>
           
-          {/* Why Gaming in Libraries */}
+          {/* Standards & Key Considerations */}
           <div className="mb-5">
             <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-question-circle"></i> Why Gaming Makes Sense
+              <i className="bi bi-shield-check"></i> Standards & Key Considerations
             </h2>
             
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <p className="mb-3">The American Library Association highlights that gaming services help libraries serve as a "third place" (beyond home and work/school) where patrons can gather, play, and socialize — supporting recreation, culture, and community connection.</p>
-              <p className="mb-2"><strong>Key Benefits:</strong></p>
+              <div className="mb-3">
+                <h5 className="text-teal-mid fw-bold mb-2">Core Standards to Follow</h5>
+              </div>
+              <p className="mb-3">The Web Content Accessibility Guidelines (WCAG) are the foundational technical standard for web accessibility (versions 2.0, 2.1, 2.2).</p>
+              <p className="mb-3">In the U.S., public libraries (as public entities) must consider accessibility requirements under law (e.g., Americans with Disabilities Act Title II, and sometimes Rehabilitation Act of 1973 Section 508 for electronic information).</p>
+              <p className="mb-3">The <strong>"POUR" principles</strong> summarise WCAG:</p>
               <ul className="mb-3">
-                <li>Helps with engagement, collaboration, and socialization</li>
-                <li>Reaches patron segments who might not participate in traditional programs</li>
-                <li>About 43% of libraries already run formal gaming programs</li>
-                <li>Supports information literacy, creativity, critical thinking, and digital literacy</li>
+                <li><strong>Perceivable:</strong> Information and UI components must be presentable to users</li>
+                <li><strong>Operable:</strong> UI components and navigation must be operable</li>
+                <li><strong>Understandable:</strong> Information and operation must be understandable</li>
+                <li><strong>Robust:</strong> Content must be robust enough for assistive technologies</li>
               </ul>
+              <div className="d-flex gap-2 flex-wrap mb-3">
+                <span className="badge bg-teal-light text-teal-dark">WCAG 2.2</span>
+                <span className="badge bg-teal-light text-teal-dark">ADA Title II</span>
+                <span className="badge bg-teal-light text-teal-dark">Section 508</span>
+              </div>
+              <a href="https://www.w3.org/WAI/WCAG22/quickref/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">W3C WCAG Quick Reference</a>
+              <a href="https://libguides.ala.org/accessibility" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">ALA LibGuides</a>
+            </div>
+
+            <div className="mb-4 p-4 bg-white shadow-sm rounded">
+              <div className="mb-3">
+                <h5 className="text-teal-mid fw-bold mb-2">Why It Matters for Library Websites</h5>
+              </div>
+              <p className="mb-3">A library's website is often the primary access point for digital collections, reference services, catalogues, events, and outreach. If it isn't accessible, many patrons with disabilities may be excluded.</p>
+              <p className="mb-3">Accessibility also overlaps with general usability: accessible sites are often better for mobile users, low-vision users, older users, etc.</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Insight:</strong> Gaming programs go beyond recreation—they can support broader library goals like information literacy and digital skills development.</p>
+                <p className="mb-0"><strong>For Library Procurement:</strong> When buying digital systems, e-resources, vendor services, the library should require accessibility compliance (so that all patrons, including those with disabilities, have equal access) per associations' policies.</p>
+              </div>
+              <div className="d-flex gap-2 flex-wrap mb-3">
+                <span className="badge bg-teal-light text-teal-dark">Digital Inclusion</span>
+                <span className="badge bg-teal-light text-teal-dark">Usability</span>
+                <span className="badge bg-teal-light text-teal-dark">Procurement</span>
               </div>
             </div>
           </div>
 
-          {/* Types of Gaming Programs */}
+          {/* Library-Specific Best Practices */}
           <div className="mb-5">
             <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-controller"></i> Types of Gaming Programs
+              <i className="bi bi-book"></i> Library-Specific Best Practices
+            </h2>
+
+            <div className="mb-4 p-4 bg-white shadow-sm rounded">
+              <div className="mb-3">
+                <h5 className="text-teal-mid fw-bold mb-2">Key Guidance</h5>
+              </div>
+              <ul className="mb-3">
+                <li className="mb-2"><strong>Use clear, descriptive alt text for images:</strong> Avoid decorative images with missing alt tags. All images must have alternative text to ensure all users can understand the content on your page.</li>
+                <li className="mb-2"><strong>Avoid relying on color alone:</strong> Do not rely on color alone to convey meaning; not all users experience color in the same way.</li>
+                <li className="mb-2"><strong>Ensure heading structure is logical:</strong> Use H1 then H2/H3 etc. Content should be written in plain language—avoid library jargon where possible.</li>
+                <li className="mb-2"><strong>Make links descriptive:</strong> Use "View catalog of new books" rather than "Click here." This helps screen-reader users.</li>
+                <li className="mb-2"><strong>Accessible documents:</strong> PDFs and Word files must be accessible (searchable text, tagged structure, readable by screen readers). A document that has images of scanned text is not accessible.</li>
+                <li className="mb-2"><strong>Procurement requirements:</strong> Include accessibility requirements in licensing and vendor contracts. The Library Accessibility Alliance (LAA) provides audit services for library electronic resources.</li>
+                <li className="mb-2"><strong>Maintain an accessibility policy:</strong> Conduct regular audits of your website content, system interfaces, and digital collections.</li>
+              </ul>
+              <div className="d-flex gap-2 flex-wrap mb-3">
+                <span className="badge bg-teal-light text-teal-dark">Alt Text</span>
+                <span className="badge bg-teal-light text-teal-dark">Plain Language</span>
+                <span className="badge bg-teal-light text-teal-dark">Document Standards</span>
+              </div>
+              <a href="https://www.libraryaccessibility.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Library Accessibility Alliance</a>
+            </div>
+
+            <div className="mb-4 p-4 bg-white shadow-sm rounded">
+              <div className="mb-3">
+                <h5 className="text-teal-mid fw-bold mb-2">
+                  Simple Checklist for Public Library Websites <span className="badge bg-success ms-2">Copy & Use</span>
+                </h5>
+              </div>
+              <div className="alert alert-success border-0 mb-3">
+                <p className="mb-0"><strong>Tip:</strong> Use this checklist for routine website audits and when launching new features.</p>
+              </div>
+              <ul className="mb-3">
+                <li>Provide a "Skip to main content" link at the top of each page</li>
+                <li>Use semantic HTML elements (header, nav, main, footer) and landmarks to aid assistive technologies</li>
+                <li>Ensure all interactive controls (buttons, links, forms) are keyboard operable and focusable, with visible focus indicators</li>
+                <li>Ensure colour contrast meets at least WCAG AA (e.g., for normal text a contrast ratio of 4.5:1 or better)</li>
+                <li>Ensure images have meaningful alt text or are marked decorative</li>
+                <li>Ensure links have descriptive text; avoid generic phrases like "click here"</li>
+                <li>Use heading structure properly (only one H1, etc) so screen-readers can navigate</li>
+                <li>For tables: provide clear row/column headers, avoid complex nested tables unless absolutely necessary</li>
+                <li>Provide transcripts and captions for video and audio content</li>
+                <li>Ensure that PDF or other downloadable documents are accessible: tagged, searchable, use headings, designate document language</li>
+                <li>On mobile devices/responsive layouts: ensure no horizontal scrolling, controls large enough to tap, layouts should reflow</li>
+                <li>For any custom library systems (catalogue, digital collection viewer): ensure that the interface is accessible (keyboard, screen-reader, focus states, labels)</li>
+                <li>Include accessibility in vendor requirements: e-resource/licensing contracts should state compliance with WCAG/Section 508</li>
+                <li>Conduct periodic audits: use automated tools and manual checks (including with screen-reader users or users with disabilities)</li>
+              </ul>
+              <div className="d-flex gap-2 flex-wrap mb-3">
+                <span className="badge bg-teal-light text-teal-dark">Checklist</span>
+                <span className="badge bg-teal-light text-teal-dark">Best Practices</span>
+                <span className="badge bg-teal-light text-teal-dark">QA Testing</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Tools & Resources */}
+          <div className="mb-5">
+            <h2 className="text-teal-mid fw-bolder mb-4 text-center">
+              <i className="bi bi-tools"></i> Tools & Resources
             </h2>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  Board Games / Card Games / Tabletop <span className="badge bg-success ms-2">Easy to Start</span>
+                  Recommended Testing Tools <span className="badge bg-success ms-2">Free & Low-Cost</span>
                 </h5>
               </div>
-              <p className="mb-3">Often the easiest to implement with relatively low equipment cost, simple set-up, and minimal technical overhead. Includes classic strategy games, modern board games, and tabletop role-playing games like Dungeons & Dragons.</p>
-              <p className="mb-2"><strong>Advantages:</strong></p>
+              <p className="mb-3">Useful accessibility tools and resources for library website developers:</p>
               <ul className="mb-3">
-                <li>Accessible and fosters social interaction</li>
-                <li>Minimal tech issues and good for groups</li>
-                <li>TTRPGs have become popular with teens and adults</li>
-              </ul>
-              <p className="mb-2"><strong>Considerations:</strong></p>
-              <ul className="mb-3">
-                <li>Need to manage pieces and accessories</li>
-                <li>Space may get noisy</li>
-                <li>Some patrons may resist non-quiet activity</li>
+                <li><strong>WAVE Web Accessibility Evaluation Tool:</strong> From WebAIM; good for quick page-level checks of accessibility issues</li>
+                <li><strong>axe (by Deque):</strong> Browser extension / IDE tool / integration into CI-CD; good for developers to integrate accessibility checks into code pipelines</li>
+                <li><strong>Accessibility Insights:</strong> Microsoft's tool; supports automated + manual evaluation, helps with guided manual testing</li>
+                <li><strong>Colour Contrast Checkers:</strong> E.g., WebAIM Colour Contrast Checker: useful for designers to ensure text/background contrast meets standards</li>
+                <li><strong>Assistive Technology Testing:</strong> Use a screen-reader (e.g., NVDA or VoiceOver) to test real user experience. NVDA is a free option for developers</li>
+                <li><strong>For Documents (PDF/Word):</strong> Use accessibility checking tools (e.g., Adobe Acrobat's Accessibility Checker) and follow document-specific checklists</li>
+                <li><strong>Full Site Crawling Tools:</strong> For larger websites, tools that can crawl many pages for accessibility issues</li>
               </ul>
               <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Low Cost</span>
-                <span className="badge bg-teal-light text-teal-dark">Social</span>
-                <span className="badge bg-teal-light text-teal-dark">All Ages</span>
+                <span className="badge bg-teal-light text-teal-dark">Automated Testing</span>
+                <span className="badge bg-teal-light text-teal-dark">Manual Testing</span>
+                <span className="badge bg-teal-light text-teal-dark">Free Tools</span>
               </div>
+              <a href="https://wave.webaim.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">WAVE Tool</a>
+              <a href="https://www.deque.com/axe/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow me-2">axe by Deque</a>
+              <a href="https://accessibilityinsights.io/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Accessibility Insights</a>
+            </div>
+
+            <div className="mb-4 p-4 bg-white shadow-sm rounded">
+              <div className="mb-3">
+                <h5 className="text-teal-mid fw-bold mb-2">Library-Specific Resources</h5>
+              </div>
+              <ul className="mb-3">
+                <li><strong>Library Accessibility Alliance (LAA):</strong> Focuses on accessible e-resources, audits for libraries, vendor/institution resource</li>
+                <li><strong>ALA Library Service to Persons with Disabilities:</strong> Web accessibility guidelines including policy, laws/guidelines, purchasing of accessible electronic resources</li>
+                <li><strong>University Library Accessibility Checklists:</strong> Covers web writing, mobile design, alt text, links, video accessibility</li>
+                <li><strong>"Accessible Libraries" Checklist (Canada):</strong> Covers broader accessibility (digital + physical) and useful library-culture guidance</li>
+              </ul>
+              <div className="d-flex gap-2 flex-wrap mb-3">
+                <span className="badge bg-teal-light text-teal-dark">Library-Focused</span>
+                <span className="badge bg-teal-light text-teal-dark">Checklists</span>
+                <span className="badge bg-teal-light text-teal-dark">Policy Guidance</span>
+              </div>
+              <a href="https://www.libraryaccessibility.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">LAA Resources</a>
+              <a href="https://libguides.ala.org/accessibility" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">ALA Accessibility</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  Video Games / Consoles / E-Sports <span className="badge bg-warning text-dark ms-2">Higher Investment</span>
+                  Key Caveats When Using Tools <span className="badge bg-warning text-dark ms-2">Important</span>
                 </h5>
               </div>
-              <p className="mb-3">Programs using consoles (Nintendo Switch, Xbox, PlayStation) or PCs for in-library play, tournaments, or online multiplayer via platforms like Discord and Twitch.</p>
-              <p className="mb-2"><strong>Advantages:</strong></p>
-              <ul className="mb-3">
-                <li>High appeal to teens and adults</li>
-                <li>Can draw new patrons</li>
-                <li>Modern and engaging library experience</li>
-              </ul>
-              <p className="mb-2"><strong>Considerations:</strong></p>
-              <ul className="mb-3">
-                <li>Higher cost (hardware, games, maintenance)</li>
-                <li>Technical support needed</li>
-                <li>Space and monitoring requirements</li>
-                <li>Security concerns (theft and damage risks)</li>
-              </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Consider locking equipment when not in use and establishing clear policies for usage, time limits, and age restrictions.</p>
+                <p className="mb-2"><strong>Critical to Know:</strong></p>
+                <ul className="mb-0">
+                  <li>Automated tools are helpful but they catch only a subset of accessibility issues (some estimate ~30-40%)</li>
+                  <li>Manual testing (keyboard only, screen-reader) is essential</li>
+                  <li>Tools will produce false positives and cannot fully verify usability, meaning human judgement is required</li>
+                  <li>For full compliance and inclusive user experience, integrate accessibility testing early (shift-left) and often in development, not just at the end</li>
+                </ul>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">High Tech</span>
-                <span className="badge bg-teal-light text-teal-dark">Popular</span>
-                <span className="badge bg-teal-light text-teal-dark">Teens/Adults</span>
-              </div>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Gamification / Game-Based Learning</h5>
-              </div>
-              <p className="mb-3">Using game mechanics or games to teach library skills or information literacy. Can include digital or board games as part of instruction, outreach, or collection development.</p>
-              <p className="mb-2"><strong>Advantages:</strong></p>
-              <ul className="mb-3">
-                <li>Aligns with educational mission</li>
-                <li>Versatile and can reach multiple age groups</li>
-                <li>Reinforces learning objectives</li>
-              </ul>
-              <p className="mb-2"><strong>Considerations:</strong></p>
-              <ul className="mb-3">
-                <li>Requires design and planning</li>
-                <li>May need staff training</li>
-                <li>Must be executed well to maintain appeal</li>
-              </ul>
-              <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Educational</span>
-                <span className="badge bg-teal-light text-teal-dark">Multi-Age</span>
-                <span className="badge bg-teal-light text-teal-dark">Skills-Based</span>
+                <span className="badge bg-teal-light text-teal-dark">Manual Testing Required</span>
+                <span className="badge bg-teal-light text-teal-dark">Human Judgement</span>
+                <span className="badge bg-teal-light text-teal-dark">Continuous Testing</span>
               </div>
             </div>
           </div>
 
-          {/* Planning Your Program */}
+          {/* Additional Resources */}
           <div className="mb-5">
             <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-clipboard-check"></i> Planning Your Gaming Program
+              <i className="bi bi-link-45deg"></i> Additional Resources
             </h2>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <h5 className="text-teal-mid fw-bold mb-3">Step 1: Assess Community Needs</h5>
+              <div className="mb-3">
+                <h5 className="text-teal-mid fw-bold mb-2">Essential Reading & References</h5>
+              </div>
               <ul className="mb-3">
-                <li>Who are you aiming to serve? (children, teens, adults, families)</li>
-                <li>What library goals do you want to support? (engagement, STEM, digital literacy, entertainment)</li>
-                <li>What space, equipment, and budget do you have?</li>
-              </ul>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <h5 className="text-teal-mid fw-bold mb-3">Step 2: Choose Format(s)</h5>
-              <ul className="mb-3">
-                <li>Board/card games vs video games vs TTRPG vs hybrid</li>
-                <li>Drop-in, scheduled club, tournament, or instructional</li>
-                <li>Examples: casual board game meet-ups for families, teen video game tournaments, adult RPG clubs</li>
-              </ul>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <h5 className="text-teal-mid fw-bold mb-3">Step 3: Select Games & Equipment</h5>
-              <p className="mb-2"><strong>For Board Games:</strong></p>
-              <ul className="mb-3">
-                <li>Invest in durable titles</li>
-                <li>Consider age range, number of players, rules complexity</li>
-              </ul>
-              <p className="mb-2"><strong>For Console/PC:</strong></p>
-              <ul className="mb-3">
-                <li>Decide on system(s), games, multiplayer capability</li>
-                <li>Consider streaming and online options</li>
-                <li>Pick games that map to library outcomes (strategy, collaboration, critical thinking)</li>
-              </ul>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <h5 className="text-teal-mid fw-bold mb-3">Step 4: Develop Policies & Logistics</h5>
-              <ul className="mb-3">
-                <li>In-library use vs checkout policies</li>
-                <li>Age restrictions and ratings</li>
-                <li>Time limits and supervision requirements</li>
-                <li>Security measures (locking equipment)</li>
-                <li>Plan for missing pieces, wear & tear, maintenance</li>
-                <li>Designate appropriate space and communicate to patrons</li>
-              </ul>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <h5 className="text-teal-mid fw-bold mb-3">Step 5: Promotion & Outreach</h5>
-              <ul className="mb-3">
-                <li>Promote via social media, library website, in-library signage</li>
-                <li>Consider partnerships with schools, youth groups, gaming clubs</li>
-                <li>Leverage ALA's International Games Month (each November)</li>
+                <li><strong>W3C Web Accessibility Initiative (WAI):</strong> Comprehensive guidelines, tutorials, and resources</li>
+                <li><strong>WebAIM:</strong> Practical articles, contrast checker, and training materials</li>
+                <li><strong>ALA Accessibility Resources:</strong> Library-specific guidance on serving patrons with disabilities</li>
+                <li><strong>Section 508:</strong> U.S. federal standards for electronic and information technology</li>
+                <li><strong>VPAT (Voluntary Product Accessibility Template):</strong> Used for documenting product accessibility conformance</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>Tip:</strong> Gaming programs may attract patrons who don't usually attend traditional library programs—make the most of this outreach opportunity!</p>
+                <p className="mb-0"><strong>Tip:</strong> Bookmark the W3C Quick Reference guide and WebAIM's resources for ongoing reference during development and testing.</p>
               </div>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <h5 className="text-teal-mid fw-bold mb-3">Step 6: Implementation & Staffing</h5>
-              <ul className="mb-3">
-                <li>Train staff or volunteers in facilitating gaming</li>
-                <li>Monitor usage and collect feedback</li>
-                <li>Ensure safety and behavior standards are clear</li>
-                <li>Adapt format based on experience</li>
-              </ul>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <h5 className="text-teal-mid fw-bold mb-3">Step 7: Evaluation & Sustainability</h5>
-              <ul className="mb-3">
-                <li>Collect attendance data and patron feedback</li>
-                <li>Evaluate whether program meets library goals</li>
-                <li>Plan for periodic refresh of games and equipment</li>
-                <li>Budget for replacements</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Best Practices */}
-          <div className="mb-5">
-            <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-star"></i> Tips & Best Practices
-            </h2>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <ul className="mb-0">
-                <li className="mb-3"><strong>Start Small:</strong> Begin with a monthly board game evening before investing in full console set-up</li>
-                <li className="mb-3"><strong>Choose Inclusive Games:</strong> Consider different ability levels and age ranges</li>
-                <li className="mb-3"><strong>Create Welcoming Environment:</strong> Gaming should feel like community gathering, not competitive stress</li>
-                <li className="mb-3"><strong>Have Clear Rules:</strong> Establish language/rating restrictions, time limits, and supervision for video games</li>
-                <li className="mb-3"><strong>Designate Separate Spaces:</strong> Balance quiet study areas with social gaming spaces</li>
-                <li className="mb-3"><strong>Maintain Equipment:</strong> Monitor for damage and theft, especially with consoles</li>
-                <li className="mb-3"><strong>Blend with Library Mission:</strong> Tie game nights with reading clubs, digital literacy sessions, or TTRPGs linked to literature</li>
-                <li className="mb-3"><strong>Consider Hybrids:</strong> Mix board games, digital games, and gamified activities for broader appeal</li>
-                <li className="mb-3"><strong>Adapt to Online/Hybrid:</strong> Use online board game platforms via Zoom when needed</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Example Programs */}
-          <div className="mb-5">
-            <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-lightbulb"></i> Example Program Ideas
-            </h2>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Family Board Game Night</h5>
+              <div className="d-flex gap-2 flex-wrap mb-3">
+                <span className="badge bg-teal-light text-teal-dark">Reference Materials</span>
+                <span className="badge bg-teal-light text-teal-dark">Guidelines</span>
+                <span className="badge bg-teal-light text-teal-dark">Standards</span>
               </div>
-              <p className="mb-3">Monthly evening where families play board/card games together; library provides a selection of games and staff facilitation.</p>
-              <div className="d-flex gap-2 flex-wrap">
-                <span className="badge bg-teal-light text-teal-dark">Families</span>
-                <span className="badge bg-teal-light text-teal-dark">Low Cost</span>
-                <span className="badge bg-teal-light text-teal-dark">Social</span>
-              </div>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Teen Video Game Tournament</h5>
-              </div>
-              <p className="mb-3">Use a console for multiplayer games like Mario Kart or Super Smash Bros; set up bracket, prizes, and registration.</p>
-              <div className="d-flex gap-2 flex-wrap">
-                <span className="badge bg-teal-light text-teal-dark">Teens</span>
-                <span className="badge bg-teal-light text-teal-dark">Competitive</span>
-                <span className="badge bg-teal-light text-teal-dark">Popular</span>
-              </div>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Adult Tabletop RPG Club</h5>
-              </div>
-              <p className="mb-3">Weekly or monthly session of Dungeons & Dragons or other TTRPGs, perhaps themed around popular culture or literary ties.</p>
-              <div className="d-flex gap-2 flex-wrap">
-                <span className="badge bg-teal-light text-teal-dark">Adults</span>
-                <span className="badge bg-teal-light text-teal-dark">Creative</span>
-                <span className="badge bg-teal-light text-teal-dark">Social</span>
-              </div>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Drop-In Gaming Lounge</h5>
-              </div>
-              <p className="mb-3">Set aside a space for patrons to drop in and play board games/cards during a certain time slot (afternoon or early evening).</p>
-              <div className="d-flex gap-2 flex-wrap">
-                <span className="badge bg-teal-light text-teal-dark">Flexible</span>
-                <span className="badge bg-teal-light text-teal-dark">All Ages</span>
-                <span className="badge bg-teal-light text-teal-dark">Casual</span>
-              </div>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Gamified Information Literacy Workshop</h5>
-              </div>
-              <p className="mb-3">Use digital game or board game mechanics to teach library research skills, critical thinking, or media literacy.</p>
-              <div className="d-flex gap-2 flex-wrap">
-                <span className="badge bg-teal-light text-teal-dark">Educational</span>
-                <span className="badge bg-teal-light text-teal-dark">Skills-Based</span>
-                <span className="badge bg-teal-light text-teal-dark">All Ages</span>
-              </div>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Online Gaming Community</h5>
-              </div>
-              <p className="mb-3">Virtual sessions using online platforms (Discord, Zoom) for gaming, board game nights, or game development workshops.</p>
-              <div className="d-flex gap-2 flex-wrap">
-                <span className="badge bg-teal-light text-teal-dark">Virtual</span>
-                <span className="badge bg-teal-light text-teal-dark">Remote Access</span>
-                <span className="badge bg-teal-light text-teal-dark">Flexible</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Challenges */}
-          <div className="mb-5">
-            <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-exclamation-triangle"></i> Challenges to Consider
-            </h2>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <ul className="mb-0">
-                <li className="mb-3"><strong>Budget & Resources:</strong> Consoles, PCs, games, maintenance, and updates require ongoing investment</li>
-                <li className="mb-3"><strong>Space & Supervision:</strong> Gaming generates noise and requires monitoring; balance social space with quiet areas</li>
-                <li className="mb-3"><strong>Equipment Security:</strong> Game pieces, consoles, and controllers are prone to damage, loss, and theft</li>
-                <li className="mb-3"><strong>Audience Segmentation:</strong> Some traditional users may resist changes in library environment</li>
-                <li className="mb-3"><strong>Licensing & Rating Issues:</strong> Ensure age-appropriate ratings and adherence to copyright/licensing</li>
-                <li className="mb-3"><strong>Sustainability:</strong> Regular programs require planning and ongoing investment beyond one-off events</li>
-                <li className="mb-3"><strong>Digital Distribution:</strong> Console lifecycles and digital-only games affect long-term viability</li>
-                <li className="mb-3"><strong>Accessibility:</strong> Design inclusive programs that accommodate patrons with disabilities and non-gamers</li>
-              </ul>
+              <a href="https://www.w3.org/WAI/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">W3C WAI</a>
+              <a href="https://webaim.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow me-2">WebAIM</a>
+              <a href="https://www.section508.gov/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Section 508</a>
             </div>
           </div>
 
@@ -327,4 +225,4 @@ const GamingInLibraries = () => {
   )
 }
 
-export default GamingInLibraries
+export default AccessibilityGuidelines

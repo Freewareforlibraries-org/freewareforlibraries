@@ -4,16 +4,8 @@ const LibraryTraining = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center">Library Technology Training & Professional Development</h1>
-        <p className="fs-5 text-teal-mid text-center mb-3">
-          Online courses, webinars, and continuing education for library IT professionals
-        </p>
-        <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
-          <p className="mb-0 text-center">
-            <strong>Pro Tip:</strong> These resources offer technology training, digital services education, 
-            and IT professional development specifically designed for library professionals—many are free or low-cost!
-          </p>
-        </div>
+        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Professional Development</h1>
+        
 
         {/* Main Content in Single Column */}
         <div className="mx-auto" style={{maxWidth: '900px'}}>
@@ -40,7 +32,7 @@ const LibraryTraining = () => {
               </ul>
               <p className="mb-2"><strong>Cost:</strong> Many offerings are free; certificates of completion available</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Subscribe to their event calendar and filter for "technology" or "digital" topics to stay current with relevant training opportunities.</p>
+                <p className="mb-0"><strong> Tip:</strong> Subscribe to their event calendar and filter for "technology" or "digital" topics to stay current with relevant training opportunities.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Free Resources</span>
@@ -64,7 +56,7 @@ const LibraryTraining = () => {
               </ul>
               <p className="mb-2"><strong>Cost:</strong> Paid courses with varying lengths (typically 4-8 weeks)</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Choose a course that aligns with a specific technology gap you're working on, such as metadata, linked data, or library systems administration.</p>
+                <p className="mb-0"><strong> Tip:</strong> Choose a course that aligns with a specific technology gap you're working on, such as metadata, linked data, or library systems administration.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Paid Courses</span>
@@ -88,7 +80,7 @@ const LibraryTraining = () => {
               </ul>
               <p className="mb-2"><strong>Cost:</strong> Paid courses; group discounts available</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> If your library supports a team, the group rate can make professional development cost-effective for multiple staff members.</p>
+                <p className="mb-0"><strong> Tip:</strong> If your library supports a team, the group rate can make professional development cost-effective for multiple staff members.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Paid Courses</span>
@@ -119,7 +111,7 @@ const LibraryTraining = () => {
               </ul>
               <p className="mb-2"><strong>Cost:</strong> Paid webinars & courses (some free options available)</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> If your library IT role supports youth/teen services, maker spaces, or digital literacy programs, this training is highly relevant.</p>
+                <p className="mb-0"><strong> Tip:</strong> If your library IT role supports youth/teen services, maker spaces, or digital literacy programs, this training is highly relevant.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Youth Services</span>
@@ -143,7 +135,7 @@ const LibraryTraining = () => {
               </ul>
               <p className="mb-2"><strong>Cost:</strong> Variable (some free webinars, some paid courses)</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Look for their "technology" or "digital services" tracks. Free webinars are excellent for staying current without budget constraints.</p>
+                <p className="mb-0"><strong> Tip:</strong> Look for their "technology" or "digital services" tracks. Free webinars are excellent for staying current without budget constraints.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Academic Libraries</span>
@@ -169,7 +161,7 @@ const LibraryTraining = () => {
               </ul>
               <p className="mb-2"><strong>Cost:</strong> Mostly free</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Excellent for staying current on international best practices and library innovation. Great for benchmarking your work against global standards.</p>
+                <p className="mb-0"><strong> Tip:</strong> Excellent for staying current on international best practices and library innovation. Great for benchmarking your work against global standards.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">International</span>
@@ -207,7 +199,7 @@ const LibraryTraining = () => {
                 <li>Excellent for library IT staff in public library systems</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Check your own state library (Arkansas State Library) for similar programs and technology-oriented training specific to your region.</p>
+                <p className="mb-0"><strong> Tip:</strong> Check your own state library (Arkansas State Library) for similar programs and technology-oriented training specific to your region.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">State-Funded</span>
@@ -239,7 +231,7 @@ const LibraryTraining = () => {
                 <li>Metadata, discovery, and digital services webinars</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Bookmark a webinar aggregator and set alerts for "technology", "digital services", "metadata", or "IT infrastructure" to catch relevant training.</p>
+                <p className="mb-0"><strong> Tip:</strong> Bookmark a webinar aggregator and set alerts for "technology", "digital services", "metadata", or "IT infrastructure" to catch relevant training.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Free</span>
@@ -265,7 +257,7 @@ const LibraryTraining = () => {
               </ul>
               <p className="mb-2"><strong>Cost:</strong> Free</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Attend Zoom sessions live if possible to ask questions in real-time, then view recordings later for reference and review.</p>
+                <p className="mb-0"><strong> Tip:</strong> Attend Zoom sessions live if possible to ask questions in real-time, then view recordings later for reference and review.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Free</span>
@@ -302,7 +294,7 @@ const LibraryTraining = () => {
                 <li>Many libraries offer free access to these platforms for staff</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Use general IT training alongside library-specific professional development to strengthen your technical foundation. Check if your library offers free access to LinkedIn Learning or similar platforms.</p>
+                <p className="mb-0"><strong> Tip:</strong> Use general IT training alongside library-specific professional development to strengthen your technical foundation. Check if your library offers free access to LinkedIn Learning or similar platforms.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">IT Skills</span>
@@ -314,21 +306,6 @@ const LibraryTraining = () => {
             </div>
           </div>
 
-          {/* Professional Development Planning Guide */}
-          <div className="mb-5">
-            <div className="alert alert-primary border-0 shadow-sm">
-              <h4 className="alert-heading text-teal-mid fw-bold">
-                <i className="bi bi-calendar-check"></i> Building Your Professional Development Plan
-              </h4>
-              <hr />
-              <p className="mb-2"><strong>Start with Free Resources:</strong> Begin with WebJunction, IFLA webinars, and state library offerings to explore topics without budget constraints.</p>
-              <p className="mb-2"><strong>Identify Skill Gaps:</strong> Choose targeted paid courses (Library Juice Academy, LJ) that address specific knowledge gaps in your role.</p>
-              <p className="mb-2"><strong>Stay Current:</strong> Subscribe to webinar calendars and set up alerts for technology topics relevant to your position.</p>
-              <p className="mb-2"><strong>Combine Library & IT Training:</strong> Mix library-specific courses with general IT certifications for comprehensive professional development.</p>
-              <p className="mb-2"><strong>Network While Learning:</strong> Attend live sessions when possible to build connections with other library technology professionals.</p>
-              <p className="mb-0"><strong>Track Your Progress:</strong> Many platforms offer certificates—maintain a portfolio of completed training for career advancement.</p>
-            </div>
-          </div>
 
         </div>
       </div>

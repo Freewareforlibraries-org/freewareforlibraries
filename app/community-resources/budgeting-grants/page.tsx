@@ -4,7 +4,7 @@ const LibraryGrantsFunding = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Library Technology Grants & Funding</h1>
+        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Grants & Funding</h1>
 
         {/* Main Content in Single Column */}
         <div className="mx-auto" style={{maxWidth: '900px'}}>

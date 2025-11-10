@@ -8,12 +8,6 @@ const LibraryOrganizations = () => {
         <p className="fs-5 text-teal-mid text-center mb-3">
           Professional associations, networks, and resources for library technology and innovation
         </p>
-        <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
-          <p className="mb-0 text-center">
-            <strong>Pro Tip:</strong> These organizations offer technology resources, professional development, 
-            advocacy, and networking opportunities for library IT professionals and technology-minded librarians!
-          </p>
-        </div>
 
         {/* Main Content in Single Column */}
         <div className="mx-auto" style={{maxWidth: '900px'}}>
@@ -27,7 +21,7 @@ const LibraryOrganizations = () => {
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  ALA <span className="badge bg-warning text-dark ms-2">Most Established</span>
+                  ALA
                 </h5>
                 <p className="text-muted small mb-2">American Library Association</p>
               </div>
@@ -126,7 +120,7 @@ const LibraryOrganizations = () => {
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  LITA <span className="badge bg-warning text-dark ms-2">Technology Focus</span>
+                  LITA
                 </h5>
                 <p className="text-muted small mb-2">Library and Information Technology Association</p>
               </div>
@@ -143,7 +137,7 @@ const LibraryOrganizations = () => {
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  Code4Lib <span className="badge bg-warning text-dark ms-2">Developer Community</span>
+                  Code4Lib
                 </h5>
                 <p className="text-muted small mb-2">Library Software Development Community</p>
               </div>
@@ -249,7 +243,7 @@ const LibraryOrganizations = () => {
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  IFLA <span className="badge bg-warning text-dark ms-2">Global Leader</span>
+                  IFLA
                 </h5>
                 <p className="text-muted small mb-2">International Federation of Library Associations and Institutions</p>
               </div>

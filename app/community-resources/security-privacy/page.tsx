@@ -30,7 +30,7 @@ const LibraryPrivacy = () => {
                 <li>Practical guidance for implementing privacy protections</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Start here when creating or updating your library's privacy policy. Use the templates as a foundation and customize for your specific needs.</p>
+                <p className="mb-0"><strong>Tip:</strong> Start here when creating or updating your library's privacy policy. Use the templates as a foundation and customize for your specific needs.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Policy Templates</span>
@@ -53,7 +53,7 @@ const LibraryPrivacy = () => {
                 <li>Critical for knowing your legal obligations and patron rights</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Keep a quick state-law cheat sheet for your legal team. Know your state's specific protections before responding to any records request.</p>
+                <p className="mb-0"><strong>Tip:</strong> Keep a quick state-law cheat sheet for your legal team. Know your state's specific protections before responding to any records request.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Legal Guidance</span>
@@ -79,7 +79,7 @@ const LibraryPrivacy = () => {
                 <li>Patron notification templates</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Use these checklists to conduct a privacy audit of your current systems and identify gaps in your privacy protections.</p>
+                <p className="mb-0"><strong>Tip:</strong> Use these checklists to conduct a privacy audit of your current systems and identify gaps in your privacy protections.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Checklists</span>
@@ -110,7 +110,7 @@ const LibraryPrivacy = () => {
                 <li>Security controls and breach notification</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Use this guidance as contract language inspiration when negotiating with ILS/LMS vendors. Insist on these protections before signing.</p>
+                <p className="mb-0"><strong>Tip:</strong> Use this guidance as contract language inspiration when negotiating with ILS/LMS vendors. Insist on these protections before signing.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Vendor Contracts</span>
@@ -143,7 +143,7 @@ const LibraryPrivacy = () => {
                 <li>Vendor privacy lifecycle management</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Perfect for staff training sessions. Use the field guide exercises to map data flows and identify privacy risks in your systems.</p>
+                <p className="mb-0"><strong>Tip:</strong> Perfect for staff training sessions. Use the field guide exercises to map data flows and identify privacy risks in your systems.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Training Materials</span>
@@ -169,7 +169,7 @@ const LibraryPrivacy = () => {
                 <li>Best practices for digital security</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Install Privacy Badger on all public browsers to automatically block trackers and protect patron browsing privacy.</p>
+                <p className="mb-0"><strong>Tip:</strong> Install Privacy Badger on all public browsers to automatically block trackers and protect patron browsing privacy.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Browser Tools</span>
@@ -243,7 +243,7 @@ const LibraryPrivacy = () => {
               </div>
 
               <div className="alert alert-info border-0 mt-4 mb-0">
-                <p className="mb-0"><strong>🎯 Pro Tip:</strong> Don't try to implement everything at once. Start with a written privacy policy and data minimization, then add technical controls and training over time.</p>
+                <p className="mb-0"><strong>Pro Tip:</strong> Don't try to implement everything at once. Start with a written privacy policy and data minimization, then add technical controls and training over time.</p>
               </div>
             </div>
           </div>
@@ -260,7 +260,7 @@ const LibraryPrivacy = () => {
               </div>
               <p className="mb-3">48 states plus DC have statutory protections for library records, but language and exceptions differ significantly. Keep a quick state-law cheat sheet accessible for your legal team.</p>
               <div className="alert alert-warning border-0 mb-3">
-                <p className="mb-0"><strong>⚠️ Important:</strong> Understand your state's specific protections and exceptions before you receive any legal request for patron data.</p>
+                <p className="mb-0"><strong>Important:</strong> Understand your state's specific protections and exceptions before you receive any legal request for patron data.</p>
               </div>
             </div>
 
@@ -278,22 +278,8 @@ const LibraryPrivacy = () => {
                 <li>Know who in your organization handles these requests</li>
               </ul>
               <div className="alert alert-success border-0 mb-0">
-                <p className="mb-0"><strong>💡 Tip:</strong> Create a one-page "Legal Request Response Protocol" for your staff with clear escalation contacts and steps to follow.</p>
+                <p className="mb-0"><strong>Tip:</strong> Create a one-page "Legal Request Response Protocol" for your staff with clear escalation contacts and steps to follow.</p>
               </div>
-            </div>
-          </div>
-
-          {/* Need More Help? */}
-          <div className="mb-5">
-            <div className="p-4 bg-light rounded text-center">
-              <h4 className="text-teal-mid fw-bold mb-3">Need Help Implementing These Resources?</h4>
-              <p className="mb-3">Looking for customized materials for your library? Consider:</p>
-              <ul className="list-unstyled mb-4">
-                <li className="mb-2">📄 <strong>Ready-to-publish "Privacy & Security" web page</strong> for your library website</li>
-                <li className="mb-2">📋 <strong>Staff privacy SOP</strong> with step-by-step procedures</li>
-                <li className="mb-2">🔍 <strong>Privacy policy audit</strong> with suggested edits tied to ALA/IMLS guidance</li>
-              </ul>
-              <p className="text-muted small mb-0">Contact your IT department or library administration to discuss implementing these privacy protections.</p>
             </div>
           </div>
 

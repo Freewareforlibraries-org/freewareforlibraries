@@ -10,7 +10,7 @@ const LibraryCommunities = () => {
         </div>
         <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
           <p className="mb-0 text-center">
-            <strong>Pro Tip:</strong> These communities connect you with thousands of library technology professionals 
+            These communities connect you with thousands of library technology professionals 
             sharing solutions, best practices, and support for IT challenges in libraries!
           </p>
         </div>

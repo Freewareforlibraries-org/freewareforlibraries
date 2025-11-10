@@ -10,7 +10,7 @@ const LibraryPCManagement = () => {
         </p>
         <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
           <p className="mb-0 text-center">
-            <strong>Pro Tip:</strong> These tools help libraries manage public computer access, enforce time limits, 
+            These tools help libraries manage public computer access, enforce time limits, 
             restore systems to a clean state, and control printing quotas—all without expensive commercial software!
           </p>
         </div>

@@ -45,7 +45,7 @@ const Navbar = () => {
                     {/* Column 1 */}
                     <div className="col-md-3">
                       <h6 className="dropdown-header">Community Resources</h6>
-                      <Link className="dropdown-item" href="/tech-resources">Communities & Forums</Link>
+                      <Link className="dropdown-item" href="/community-resources/community-forums">Communities & Forums</Link>
                       <Link className="dropdown-item" href="/community-resources/library-organizations">Library Organizations</Link>
                       <Link className="dropdown-item" href="/resources/guides">Learning & Proffessional Developement</Link>
                       <Link className="dropdown-item" href="/programming-coding">Budgeting & Grants</Link>

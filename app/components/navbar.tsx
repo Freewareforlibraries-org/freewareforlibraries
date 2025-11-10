@@ -64,7 +64,7 @@ const Navbar = () => {
                     <div className="col-md-3">
                       <h6 className="dropdown-header">Website Mangement</h6>
                       <Link className="dropdown-item" href="/community-resources/development-tools">Development Tools</Link>
-                      <Link className="dropdown-item" href="/wp">Standards & Best Practices</Link>
+                      <Link className="dropdown-item" href="/community-resources/developer-best-practices">Standards & Best Practices</Link>
                       <Link className="dropdown-item" href="/wp">Accessibility</Link>
                       <Link className="dropdown-item" href="/wp">Hosting Solutions</Link>
                     </div>

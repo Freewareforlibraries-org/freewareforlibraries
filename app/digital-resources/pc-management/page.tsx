@@ -4,7 +4,7 @@ const LibraryPCManagement = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center">Public Access & Patron Computing</h1>
+        <h1 className="display-1 text-teal-mid fw-bolder text-center">Public Access <br> & <br> Patron Computing</h1>
         <p className="fs-5 text-teal-mid text-center mb-3">
           Free and open-source tools for managing library public computers, sessions, and printing
         </p>

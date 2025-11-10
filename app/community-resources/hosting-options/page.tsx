@@ -5,7 +5,7 @@ const LibraryHostingOptions = () => {
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">
         <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">
-          Free or Low-Cost Hosting Options for Public Libraries
+          Hosting Options
         </h1>
 
         <div className="mx-auto" style={{ maxWidth: '900px' }}>

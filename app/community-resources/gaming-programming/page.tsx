@@ -327,4 +327,4 @@ const GamingInLibraries = () => {
   )
 }
 
-export default GamingInLibraries
+export default GamingInLibraries;

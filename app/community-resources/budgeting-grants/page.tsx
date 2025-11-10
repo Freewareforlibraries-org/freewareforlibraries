@@ -40,8 +40,7 @@ const LibraryGrantsFunding = () => {
                 <span className="badge bg-teal-light text-teal-dark">Infrastructure</span>
               </div>
               <a href="https://www.imls.gov/grants/available/grants-state-library-administrative-agencies" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">IMLS Website</a>
-              <a href="https://www.library.arkansas.gov/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Arkansas State Library</a>
-            </div>
+             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
@@ -94,8 +93,7 @@ const LibraryGrantsFunding = () => {
                 <span className="badge bg-teal-light text-teal-dark">Inclusion</span>
               </div>
               <a href="https://www.internetforall.gov/program/state-digital-equity-capacity-grant-program" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">NTIA Digital Equity</a>
-              <a href="https://publiclibrariesonline.org/2022/01/digital-equity-grants-what-public-libraries-need-to-know/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Library Guide</a>
-            </div>
+              </div>
           </div>
 
           {/* State-Level Technology Grants */}

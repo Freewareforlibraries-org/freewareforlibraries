@@ -39,7 +39,7 @@ const LibraryCommunities = () => {
                 <li>Practical advice on patron support and public computer management</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Use search filters like "library IT" or "public library technology" to find relevant threads. Post specific "How do you..." questions for best responses.</p>
+                <p className="mb-0"><strong> Tip:</strong> Use search filters like "library IT" or "public library technology" to find relevant threads. Post specific "How do you..." questions for best responses.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">All Library Types</span>
@@ -62,7 +62,7 @@ const LibraryCommunities = () => {
                 <li>Career advice for library technology professionals</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Post specific IT challenges like "patron device support in public library" to get targeted, practical responses from library staff.</p>
+                <p className="mb-0"><strong> Tip:</strong> Post specific IT challenges like "patron device support in public library" to get targeted, practical responses from library staff.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Library Staff</span>
@@ -92,7 +92,7 @@ const LibraryCommunities = () => {
                 <li>Technology service models for public libraries</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Browse older threads for inspiration and proven solutions, then post your library's specific tech questions for community feedback.</p>
+                <p className="mb-0"><strong> Tip:</strong> Browse older threads for inspiration and proven solutions, then post your library's specific tech questions for community feedback.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Public Libraries</span>
@@ -117,7 +117,7 @@ const LibraryCommunities = () => {
                 <li>Library staff experiences with STEAM education</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Perfect if your IT role intersects with maker labs, digital inclusion programs, or innovative technology services. Rich resource for creative tech implementations.</p>
+                <p className="mb-0"><strong> Tip:</strong> Perfect if your IT role intersects with maker labs, digital inclusion programs, or innovative technology services. Rich resource for creative tech implementations.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Maker Spaces</span>
@@ -149,7 +149,7 @@ const LibraryCommunities = () => {
                 <li>Announcements of resources, webinars, and professional development</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Join relevant sections like CORE (library technology) or PLA (public libraries) to receive targeted postings and participate in specialized discussions.</p>
+                <p className="mb-0"><strong> Tip:</strong> Join relevant sections like CORE (library technology) or PLA (public libraries) to receive targeted postings and participate in specialized discussions.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Professional Association</span>
@@ -172,7 +172,7 @@ const LibraryCommunities = () => {
                 <li>International standards and best practices</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Excellent for benchmarking your library's IT practices against global standards. Subscribe to gain international perspectives on common challenges.</p>
+                <p className="mb-0"><strong> Tip:</strong> Excellent for benchmarking your library's IT practices against global standards. Subscribe to gain international perspectives on common challenges.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">International</span>
@@ -195,7 +195,7 @@ const LibraryCommunities = () => {
                 <li>Real-world experiences from library practitioners</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Excellent for public library context rather than academic libraries. Great community for questions about patron-facing technology and public services.</p>
+                <p className="mb-0"><strong> Tip:</strong> Excellent for public library context rather than academic libraries. Great community for questions about patron-facing technology and public services.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Public Libraries</span>
@@ -218,7 +218,7 @@ const LibraryCommunities = () => {
                 <li>Library-specific technical implementations</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> If your role covers library system infrastructure or integrated library systems (ILS), these technical lists provide deep expertise and troubleshooting support.</p>
+                <p className="mb-0"><strong> Tip:</strong> If your role covers library system infrastructure or integrated library systems (ILS), these technical lists provide deep expertise and troubleshooting support.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Technical</span>
@@ -248,7 +248,7 @@ const LibraryCommunities = () => {
                 <li>Implementation challenges and solutions</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Use for technical solution ideas and OS implementation strategies rather than library-community discussion. Search for "library" or "public computer" threads.</p>
+                <p className="mb-0"><strong> Tip:</strong> Use for technical solution ideas and OS implementation strategies rather than library-community discussion. Search for "library" or "public computer" threads.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Linux</span>
@@ -271,7 +271,7 @@ const LibraryCommunities = () => {
                 <li>Public library event ideas using Raspberry Pi</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Tip:</strong> Extremely useful if you manage or plan library IT/maker-space programs. Search for "library" to find relevant discussions and project ideas.</p>
+                <p className="mb-0"><strong> Tip:</strong> Extremely useful if you manage or plan library IT/maker-space programs. Search for "library" to find relevant discussions and project ideas.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Maker Spaces</span>
@@ -279,21 +279,6 @@ const LibraryCommunities = () => {
                 <span className="badge bg-teal-light text-teal-dark">Programming</span>
               </div>
               <a href="https://forums.raspberrypi.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Raspberry Pi Forums</a>
-            </div>
-          </div>
-
-          {/* Getting Started Guide */}
-          <div className="mb-5">
-            <div className="alert alert-primary border-0 shadow-sm">
-              <h4 className="alert-heading text-teal-mid fw-bold">
-                <i className="bi bi-lightbulb"></i> Getting Started with Library Tech Communities
-              </h4>
-              <hr />
-              <p className="mb-2"><strong>For Quick Questions:</strong> Start with Reddit communities (r/Libraries, r/librarians) for fast, informal responses.</p>
-              <p className="mb-2"><strong>For Professional Development:</strong> Join ALA discussion lists and follow PUBLIB for in-depth professional discussions.</p>
-              <p className="mb-2"><strong>For Technical Deep Dives:</strong> Subscribe to specialized mailing lists and tech-specific forums based on your infrastructure needs.</p>
-              <p className="mb-2"><strong>For Innovation & Maker Spaces:</strong> Engage with PLIX and Raspberry Pi communities for creative technology implementations.</p>
-              <p className="mb-0"><strong>For Global Perspectives:</strong> Follow IFLA lists to benchmark against international library technology standards.</p>
             </div>
           </div>
 

@@ -48,7 +48,7 @@ const Navbar = () => {
                       <Link className="dropdown-item" href="/community-resources/community-forums">Communities & Forums</Link>
                       <Link className="dropdown-item" href="/community-resources/library-organizations">Library Organizations</Link>
                       <Link className="dropdown-item" href="/community-resources/professional-development">Learning & Professional Development</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Budgeting & Grants</Link>
+                      <Link className="dropdown-item" href="/community-resources/budgeting-grants">Budgeting & Grants</Link>
                     </div>
 
                     {/* Column 2 */}

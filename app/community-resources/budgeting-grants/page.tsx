@@ -1,311 +1,300 @@
 import React from 'react'
 
-const LibraryTraining = () => {
+const LibraryGrantsFunding = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Professional Development</h1>
-        
+        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Library Technology Grants & Funding</h1>
 
         {/* Main Content in Single Column */}
         <div className="mx-auto" style={{maxWidth: '900px'}}>
           
-          {/* Major Learning Platforms */}
+          {/* Federal & National Grants */}
           <div className="mb-5">
             <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-mortarboard"></i> Major Learning Platforms
+              <i className="bi bi-flag"></i> Federal & National Grant Programs
             </h2>
             
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  WebJunction <span className="badge bg-warning text-dark ms-2">Most Popular</span> <span className="badge bg-success ms-2">Many Free</span>
+                  LSTA Grants <span className="badge bg-warning text-dark ms-2">Major Funding</span>
                 </h5>
-                <p className="text-muted small mb-2">OCLC Learning Portal for Library Staff</p>
+                <p className="text-muted small mb-2">Library Services and Technology Act</p>
               </div>
-              <p className="mb-3">A comprehensive learning portal from OCLC offering webinars, self-paced courses, and on-demand training specifically designed for library staff at all levels.</p>
-              <p className="mb-2"><strong>Why for Library IT Pros:</strong></p>
+              <p className="mb-3">Federal funds distributed through the Institute of Museum and Library Services (IMLS) to state library agencies, which then award grants to individual libraries for technology, digital resources, and infrastructure projects.</p>
+              <p className="mb-2"><strong>What It Covers:</strong></p>
               <ul className="mb-3">
-                <li>Covers digital collections, technology workflows, and infrastructure topics</li>
-                <li>Features "Digital Collections Stewardship" series and technology best practices</li>
-                <li>Regular webinars on emerging library technology trends</li>
+                <li>Technology upgrades and infrastructure improvements</li>
+                <li>Digital resources and collections development</li>
+                <li>Website development and digital access initiatives</li>
+                <li>Equipment purchases and technology training</li>
               </ul>
-              <p className="mb-2"><strong>Cost:</strong> Many offerings are free; certificates of completion available</p>
+              <p className="mb-2"><strong>Eligibility:</strong> Public libraries, academic libraries, research libraries, school libraries (varies by state)</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> Subscribe to their event calendar and filter for "technology" or "digital" topics to stay current with relevant training opportunities.</p>
+                <p className="mb-0"><strong>Key Note:</strong> If your website build includes technology upgrades or digital access improvements, you may qualify for LSTA funding. Contact your state library agency for application details and deadlines.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Free Resources</span>
-                <span className="badge bg-teal-light text-teal-dark">Webinars</span>
-                <span className="badge bg-teal-light text-teal-dark">Self-Paced</span>
+                <span className="badge bg-teal-light text-teal-dark">Federal Funding</span>
+                <span className="badge bg-teal-light text-teal-dark">Technology</span>
+                <span className="badge bg-teal-light text-teal-dark">Infrastructure</span>
               </div>
-              <a href="https://www.webjunction.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit WebJunction</a>
+              <a href="https://www.imls.gov/grants/available/grants-state-library-administrative-agencies" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">IMLS Website</a>
+              <a href="https://www.library.arkansas.gov/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Arkansas State Library</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Library Juice Academy</h5>
-                <p className="text-muted small mb-2">Professional Online Courses for Information Professionals</p>
+                <h5 className="text-teal-mid fw-bold mb-2">ALA Grants & Awards</h5>
+                <p className="text-muted small mb-2">American Library Association Grant Programs</p>
               </div>
-              <p className="mb-3">Online courses aimed at librarians, archivists, and other information professionals with strong focus on modern library technology and digital practices.</p>
-              <p className="mb-2"><strong>Why for IT-Oriented Staff:</strong></p>
+              <p className="mb-3">The ALA maintains a comprehensive list of grants available to libraries covering programs, research, technology initiatives, and special projects.</p>
+              <p className="mb-2"><strong>What It Covers:</strong></p>
               <ul className="mb-3">
-                <li>Courses include metadata management, digital workflows, and library systems</li>
-                <li>Information literacy for tech staff and digital service design</li>
-                <li>Linked data, RDA, and modern cataloging technologies</li>
+                <li>Technology and innovation projects</li>
+                <li>Website and digital infrastructure upgrades</li>
+                <li>Special programming and community initiatives</li>
+                <li>Research and professional development</li>
               </ul>
-              <p className="mb-2"><strong>Cost:</strong> Paid courses with varying lengths (typically 4-8 weeks)</p>
+              <p className="mb-2"><strong>Typical Award Amounts:</strong> Varies widely by grant program ($500 - $10,000+)</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> Choose a course that aligns with a specific technology gap you're working on, such as metadata, linked data, or library systems administration.</p>
+                <p className="mb-0"><strong>Key Note:</strong> Excellent resource to scan for website and IT upgrade opportunities. Carefully review eligibility requirements and match requirements for each grant program.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Paid Courses</span>
-                <span className="badge bg-teal-light text-teal-dark">Metadata</span>
-                <span className="badge bg-teal-light text-teal-dark">Digital Workflows</span>
+                <span className="badge bg-teal-light text-teal-dark">Multiple Programs</span>
+                <span className="badge bg-teal-light text-teal-dark">Technology</span>
+                <span className="badge bg-teal-light text-teal-dark">Innovation</span>
               </div>
-              <a href="https://libraryjuiceacademy.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Library Juice Academy</a>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">Library Journal & School Library Journal PD</h5>
-                <p className="text-muted small mb-2">Professional Development Courses & Workshops</p>
-              </div>
-              <p className="mb-3">Online professional development courses ranging from crash courses (2-hour sessions) to multi-week workshops covering current library trends and technologies.</p>
-              <p className="mb-2"><strong>Relevance:</strong></p>
-              <ul className="mb-3">
-                <li>Excellent for library IT professionals keeping up with trends</li>
-                <li>Topics include digitization, technology in libraries, and service design</li>
-                <li>Regular updates on emerging technologies and best practices</li>
-              </ul>
-              <p className="mb-2"><strong>Cost:</strong> Paid courses; group discounts available</p>
-              <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> If your library supports a team, the group rate can make professional development cost-effective for multiple staff members.</p>
-              </div>
-              <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Paid Courses</span>
-                <span className="badge bg-teal-light text-teal-dark">Group Discounts</span>
-                <span className="badge bg-teal-light text-teal-dark">Trends</span>
-              </div>
-              <a href="https://www.libraryjournal.com/page/pd-courses" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">View LJ Courses</a>
-            </div>
-          </div>
-
-          {/* Association-Based Training */}
-          <div className="mb-5">
-            <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-bank"></i> Association-Based Training
-            </h2>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">ALSC – eLearning & Webinars</h5>
-                <p className="text-muted small mb-2">Association for Library Service to Children</p>
-              </div>
-              <p className="mb-3">Offers 4-6 week online courses and webinars covering library professional development with focus on youth services and technology.</p>
-              <p className="mb-2"><strong>Relevance:</strong></p>
-              <ul className="mb-3">
-                <li>While children & youth services-oriented, covers technology and digital services extensively</li>
-                <li>Helps IT professionals understand service design for youth-oriented library tech</li>
-                <li>Includes maker spaces, digital literacy programs, and educational technology</li>
-              </ul>
-              <p className="mb-2"><strong>Cost:</strong> Paid webinars & courses (some free options available)</p>
-              <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> If your library IT role supports youth/teen services, maker spaces, or digital literacy programs, this training is highly relevant.</p>
-              </div>
-              <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Youth Services</span>
-                <span className="badge bg-teal-light text-teal-dark">Digital Literacy</span>
-                <span className="badge bg-teal-light text-teal-dark">Maker Spaces</span>
-              </div>
-              <a href="https://www.ala.org/alsc/elearning" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Explore ALSC eLearning</a>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">ACRL – eLearning & Free PD</h5>
-                <p className="text-muted small mb-2">Association of College and Research Libraries</p>
-              </div>
-              <p className="mb-3">Provides multi-week asynchronous online courses specifically for academic library staff, plus regular free webinars on current topics.</p>
-              <p className="mb-2"><strong>Relevance:</strong></p>
-              <ul className="mb-3">
-                <li>Perfect if you work in an academic library or support research library systems</li>
-                <li>Courses cover digital collections, data services, and technology planning</li>
-                <li>Regular free webinars on scholarly communication and library technology</li>
-              </ul>
-              <p className="mb-2"><strong>Cost:</strong> Variable (some free webinars, some paid courses)</p>
-              <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> Look for their "technology" or "digital services" tracks. Free webinars are excellent for staying current without budget constraints.</p>
-              </div>
-              <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Academic Libraries</span>
-                <span className="badge bg-teal-light text-teal-dark">Free Webinars</span>
-                <span className="badge bg-teal-light text-teal-dark">Digital Collections</span>
-              </div>
-              <a href="https://www.ala.org/acrl/professional-development" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">View ACRL Training</a>
+              <a href="https://www.ala.org/awardsgrants/awards/browse/filter" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Browse ALA Grants</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  IFLA Webinars <span className="badge bg-success ms-2">Free</span>
+                  Digital Equity Act Funds <span className="badge bg-success ms-2">Equity Focus</span>
                 </h5>
-                <p className="text-muted small mb-2">International Federation of Library Associations</p>
+                <p className="text-muted small mb-2">NTIA Digital Equity Grants</p>
               </div>
-              <p className="mb-3">Global library association offering free webinars for library and information professionals around the world, providing international perspectives on library technology.</p>
-              <p className="mb-2"><strong>Relevance:</strong></p>
+              <p className="mb-3">Federal funding through the National Telecommunications and Information Administration (NTIA) with states offering sub-grants to libraries for digital access and equity initiatives.</p>
+              <p className="mb-2"><strong>What It Covers:</strong></p>
               <ul className="mb-3">
-                <li>Broader perspective on library tech trends and innovations globally</li>
-                <li>Professional development in library IT from international experts</li>
-                <li>Network building with global library technology community</li>
+                <li>Digital access and inclusion initiatives</li>
+                <li>ADA compliance and accessibility improvements</li>
+                <li>Mobile-responsive website development</li>
+                <li>Broadband access and technology infrastructure</li>
+                <li>Digital literacy and skills training programs</li>
               </ul>
-              <p className="mb-2"><strong>Cost:</strong> Mostly free</p>
+              <p className="mb-2"><strong>Focus Areas:</strong> Underserved communities, accessibility, digital divide reduction</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> Excellent for staying current on international best practices and library innovation. Great for benchmarking your work against global standards.</p>
+                <p className="mb-0"><strong>Key Note:</strong> If your website build has equity, access, or inclusion goals (such as ADA compliance, mobile access, multilingual support), emphasizing this angle significantly strengthens your application.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">International</span>
-                <span className="badge bg-teal-light text-teal-dark">Free</span>
-                <span className="badge bg-teal-light text-teal-dark">Global Perspective</span>
+                <span className="badge bg-teal-light text-teal-dark">Digital Equity</span>
+                <span className="badge bg-teal-light text-teal-dark">Accessibility</span>
+                <span className="badge bg-teal-light text-teal-dark">Inclusion</span>
               </div>
-              <a href="https://www.ifla.org/news/webinars/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Browse IFLA Webinars</a>
+              <a href="https://www.internetforall.gov/program/state-digital-equity-capacity-grant-program" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">NTIA Digital Equity</a>
+              <a href="https://publiclibrariesonline.org/2022/01/digital-equity-grants-what-public-libraries-need-to-know/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Library Guide</a>
             </div>
           </div>
 
-          {/* Regional & State Resources */}
+          {/* State-Level Technology Grants */}
           <div className="mb-5">
             <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-geo-alt"></i> Regional & State Resources
+              <i className="bi bi-geo-alt"></i> State-Level Technology Grants
             </h2>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
                 <h5 className="text-teal-mid fw-bold mb-2">
-                  State Library Training Programs <span className="badge bg-success ms-2">Often Free</span>
+                  State Library Agency Technology Grants <span className="badge bg-warning text-dark ms-2">Highly Relevant</span>
                 </h5>
-                <p className="text-muted small mb-2">Regional Training & Certification Resources</p>
+                <p className="text-muted small mb-2">State-Specific Grant Programs</p>
               </div>
-              <p className="mb-3">State libraries often offer training, continuing education, and certification programs for library staff and support staff, typically at low or no cost.</p>
-              <p className="mb-2"><strong>Example Programs:</strong></p>
+              <p className="mb-3">Many states offer dedicated technology and website grants specifically for public libraries. These programs are often directly administered by state library agencies.</p>
+              <p className="mb-2"><strong>Example State Programs:</strong></p>
               <ul className="mb-3">
-                <li>Washington State Library offers comprehensive training and certification</li>
-                <li>Arkansas State Library provides technology-oriented training for in-state libraries</li>
-                <li>Most state libraries have dedicated professional development portals</li>
+                <li><strong>Oklahoma:</strong> "Websites for Public Libraries" project - dedicated website development grants</li>
+                <li><strong>Kentucky:</strong> "Website Development and Technology Grant" program for public libraries</li>
+                <li><strong>Indiana:</strong> ARPA technology grants for public libraries to purchase technology equipment</li>
+                <li><strong>Arkansas:</strong> Check Arkansas State Library for current technology grant opportunities</li>
               </ul>
-              <p className="mb-2"><strong>Relevance:</strong></p>
+              <p className="mb-2"><strong>What They Cover:</strong></p>
               <ul className="mb-3">
-                <li>Often lower cost or free, funded by state grants</li>
-                <li>Tailored to public and community libraries in your region</li>
-                <li>Excellent for library IT staff in public library systems</li>
+                <li>Website design, development, and hosting</li>
+                <li>Technology equipment purchases (servers, computers, networking)</li>
+                <li>Digital infrastructure upgrades</li>
+                <li>Software licenses and technology training</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> Check your own state library (Arkansas State Library) for similar programs and technology-oriented training specific to your region.</p>
+                <p className="mb-0"><strong>Key Note:</strong> These are very relevant for website and technology projects. Check your state library agency website regularly for calls for proposals. Many states announce annual or biennial technology grant cycles.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">State-Funded</span>
-                <span className="badge bg-teal-light text-teal-dark">Public Libraries</span>
-                <span className="badge bg-teal-light text-teal-dark">Regional Focus</span>
+                <span className="badge bg-teal-light text-teal-dark">State Funding</span>
+                <span className="badge bg-teal-light text-teal-dark">Website Development</span>
+                <span className="badge bg-teal-light text-teal-dark">Technology Equipment</span>
               </div>
-              <a href="https://www.library.arkansas.gov/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Arkansas State Library</a>
+              <a href="https://www.library.arkansas.gov/grants-and-funding" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">Arkansas Grants</a>
+              <a href="https://libraries.ok.gov/grants/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow me-2">Oklahoma</a>
+              <a href="https://kdla.ky.gov/librarians/grant/Pages/default.aspx" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Kentucky</a>
+            </div>
+
+            <div className="mb-4 p-4 bg-white shadow-sm rounded">
+              <div className="mb-3">
+                <h5 className="text-teal-mid fw-bold mb-2">ARPA/Emergency Funding for Technology</h5>
+                <p className="text-muted small mb-2">American Rescue Plan Act & Emergency Grants</p>
+              </div>
+              <p className="mb-3">Various states have allocated ARPA (American Rescue Plan Act) funds and other emergency funding specifically for library technology improvements and infrastructure.</p>
+              <p className="mb-2"><strong>What It Covers:</strong></p>
+              <ul className="mb-3">
+                <li>Technology equipment and infrastructure upgrades necessitated by pandemic</li>
+                <li>Digital service expansion and remote access improvements</li>
+                <li>Virtual programming technology and platforms</li>
+                <li>WiFi and broadband infrastructure</li>
+              </ul>
+              <p className="mb-2"><strong>Availability:</strong> Limited time opportunities - check state library for current offerings</p>
+              <div className="alert alert-success border-0 mb-3">
+                <p className="mb-0"><strong>Key Note:</strong> While ARPA funding windows may be closing, similar emergency or special allocation funds may become available. Stay connected with your state library agency for announcements.</p>
+              </div>
+              <div className="d-flex gap-2 flex-wrap mb-3">
+                <span className="badge bg-teal-light text-teal-dark">Emergency Funding</span>
+                <span className="badge bg-teal-light text-teal-dark">Technology Upgrades</span>
+                <span className="badge bg-teal-light text-teal-dark">Time-Limited</span>
+              </div>
+              <a href="https://www.library.arkansas.gov/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Check State Library</a>
             </div>
           </div>
 
-          {/* Free & Low-Cost Options */}
+          {/* Private & Foundation Grants */}
           <div className="mb-5">
             <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-gift"></i> Free & Low-Cost Training Options
+              <i className="bi bi-briefcase"></i> Private & Foundation Grants
             </h2>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">
-                  Free Webinar Aggregators <span className="badge bg-success ms-2">Free</span>
-                </h5>
-                <p className="text-muted small mb-2">Curated Lists for Library Professionals</p>
+                <h5 className="text-teal-mid fw-bold mb-2">Technology-Focused Foundation Grants</h5>
+                <p className="text-muted small mb-2">Private Sector Funding Opportunities</p>
               </div>
-              <p className="mb-3">Curated lists and portals offering many free webinars for library professionals, with regular technology-focused topics.</p>
-              <p className="mb-2"><strong>What You'll Find:</strong></p>
+              <p className="mb-3">Private foundations and corporations offer grants specifically for library technology, digital literacy, and innovation projects.</p>
+              <p className="mb-2"><strong>Common Sources:</strong></p>
               <ul className="mb-3">
-                <li>Technology-oriented topics like digital collections and AI in libraries</li>
-                <li>Tech infrastructure, cybersecurity, and systems management</li>
-                <li>Metadata, discovery, and digital services webinars</li>
+                <li><strong>IMLS Discretionary Grants:</strong> National Leadership Grants for Libraries for innovative projects</li>
+                <li><strong>Google.org:</strong> Periodic library technology initiatives</li>
+                <li><strong>Bill & Melinda Gates Foundation:</strong> Digital equity and access programs</li>
+                <li><strong>Knight Foundation:</strong> Innovation and community engagement through technology</li>
+                <li><strong>Local Community Foundations:</strong> Check regional foundations in your area</li>
               </ul>
+              <p className="mb-2"><strong>Focus Areas:</strong> Innovation, digital literacy, community impact, technology access</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> Bookmark a webinar aggregator and set alerts for "technology", "digital services", "metadata", or "IT infrastructure" to catch relevant training.</p>
+                <p className="mb-0"><strong>Key Note:</strong> Foundation grants often require demonstration of innovation and community impact. Emphasize how your technology project will transform library services and benefit your community.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Free</span>
-                <span className="badge bg-teal-light text-teal-dark">Webinars</span>
-                <span className="badge bg-teal-light text-teal-dark">Diverse Topics</span>
+                <span className="badge bg-teal-light text-teal-dark">Foundation Funding</span>
+                <span className="badge bg-teal-light text-teal-dark">Innovation</span>
+                <span className="badge bg-teal-light text-teal-dark">Community Impact</span>
               </div>
-              <a href="https://www.webjunction.org/events/webjunction.html" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">WebJunction Free Webinars</a>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">
-                  LiRN Network <span className="badge bg-success ms-2">Free</span>
-                </h5>
-                <p className="text-muted small mb-2">Professional Development for Library Staff</p>
-              </div>
-              <p className="mb-3">Offers curriculum of free professional development programs in structured learning paths covering electronic resources, library skills, and technology topics via Zoom and recordings.</p>
-              <p className="mb-2"><strong>Relevance:</strong></p>
-              <ul className="mb-3">
-                <li>Especially useful for electronic resources and e-resource licensing</li>
-                <li>Covers vendor systems and digital resource management</li>
-                <li>Overlaps library IT and resource management perfectly</li>
-              </ul>
-              <p className="mb-2"><strong>Cost:</strong> Free</p>
-              <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> Attend Zoom sessions live if possible to ask questions in real-time, then view recordings later for reference and review.</p>
-              </div>
-              <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Free</span>
-                <span className="badge bg-teal-light text-teal-dark">Electronic Resources</span>
-                <span className="badge bg-teal-light text-teal-dark">Live + Recorded</span>
-              </div>
-              <a href="https://lirn.net/professional-development/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit LiRN Network</a>
+              <a href="https://www.imls.gov/grants" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">IMLS Grants</a>
+              <a href="https://www.ala.org/awardsgrants/finding-funding-your-library" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Find More Funding</a>
             </div>
           </div>
 
-          {/* Technical IT Training */}
+          {/* Grant Writing Tips */}
           <div className="mb-5">
             <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-code-square"></i> Specialized Technology Training
+              <i className="bi bi-pencil-square"></i> Successful Grant Application Strategies
             </h2>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
+              <h5 className="text-teal-mid fw-bold mb-3">Tips for Technology Grant Applications</h5>
+              
               <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">General IT Certifications & Training</h5>
-                <p className="text-muted small mb-2">Broader Tech Education Platforms</p>
+                <h6 className="fw-bold text-teal-mid">1. Align with Digital Equity & Inclusion</h6>
+                <p className="mb-2">Strengthen applications by emphasizing:</p>
+                <ul className="mb-3">
+                  <li>ADA compliance and accessibility features</li>
+                  <li>Mobile-responsive design for broader access</li>
+                  <li>Multilingual support for diverse communities</li>
+                  <li>Service to underserved or rural populations</li>
+                </ul>
               </div>
-              <p className="mb-3">While not library-specific, general IT certifications and training platforms can strengthen core technical skills essential for library IT roles.</p>
-              <p className="mb-2"><strong>Platforms to Consider:</strong></p>
-              <ul className="mb-3">
-                <li><strong>LinkedIn Learning:</strong> Cloud computing, systems administration, cybersecurity</li>
-                <li><strong>Universal Class:</strong> IT certifications often available free through library cards</li>
-                <li><strong>Coursera/edX:</strong> University-level IT and computer science courses</li>
-                <li><strong>CompTIA/AWS:</strong> Industry-standard IT certifications</li>
-              </ul>
-              <p className="mb-2"><strong>Relevance:</strong></p>
-              <ul className="mb-3">
-                <li>Library IT roles often require core IT skills (networks, servers, cloud, security)</li>
-                <li>Certifications provide credibility and structured learning paths</li>
-                <li>Many libraries offer free access to these platforms for staff</li>
-              </ul>
-              <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong> Tip:</strong> Use general IT training alongside library-specific professional development to strengthen your technical foundation. Check if your library offers free access to LinkedIn Learning or similar platforms.</p>
+
+              <div className="mb-3">
+                <h6 className="fw-bold text-teal-mid">2. Document Community Need</h6>
+                <p className="mb-2">Support your application with:</p>
+                <ul className="mb-3">
+                  <li>User surveys and community feedback</li>
+                  <li>Usage statistics and analytics</li>
+                  <li>Demographics showing technology gaps</li>
+                  <li>Letters of support from community partners</li>
+                </ul>
               </div>
-              <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">IT Skills</span>
-                <span className="badge bg-teal-light text-teal-dark">Certifications</span>
-                <span className="badge bg-teal-light text-teal-dark">Cloud/Security</span>
+
+              <div className="mb-3">
+                <h6 className="fw-bold text-teal-mid">3. Plan for Sustainability</h6>
+                <p className="mb-2">Address long-term viability:</p>
+                <ul className="mb-3">
+                  <li>Hosting and maintenance plans</li>
+                  <li>Staff training and capacity building</li>
+                  <li>Budget for ongoing costs after grant period</li>
+                  <li>Partnerships for continued support</li>
+                </ul>
               </div>
-              <a href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">LinkedIn Learning</a>
-              <a href="https://www.universalclass.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Universal Class</a>
+
+              <div className="mb-3">
+                <h6 className="fw-bold text-teal-mid">4. Demonstrate Measurable Outcomes</h6>
+                <p className="mb-2">Define clear success metrics:</p>
+                <ul className="mb-3">
+                  <li>Website traffic and usage goals</li>
+                  <li>Number of users served or reached</li>
+                  <li>Digital literacy improvements</li>
+                  <li>Community engagement increases</li>
+                </ul>
+              </div>
+
+              <div className="mb-0">
+                <h6 className="fw-bold text-teal-mid">5. Build Relationships Early</h6>
+                <p className="mb-2">Before applying:</p>
+                <ul className="mb-0">
+                  <li>Contact your state library consultant</li>
+                  <li>Attend grant information sessions</li>
+                  <li>Review funded project examples</li>
+                  <li>Start planning well before deadlines</li>
+                </ul>
+              </div>
             </div>
           </div>
 
+          {/* Action Steps */}
+          <div className="mb-5">
+            <div className="alert alert-primary border-0 shadow-sm">
+              <h4 className="alert-heading text-teal-mid fw-bold">
+                <i className="bi bi-list-check"></i> Getting Started with Grant Funding
+              </h4>
+              <hr />
+              <p className="mb-2"><strong>Step 1:</strong> Contact your state library agency (Arkansas State Library) to learn about current technology grant opportunities and application cycles.</p>
+              <p className="mb-2"><strong>Step 2:</strong> Subscribe to grant alert services from ALA, IMLS, and your state library to receive notifications about new funding opportunities.</p>
+              <p className="mb-2"><strong>Step 3:</strong> Review recently funded projects to understand what makes successful applications in your state and region.</p>
+              <p className="mb-2"><strong>Step 4:</strong> Document your current technology needs and community impact data before application deadlines arrive.</p>
+              <p className="mb-2"><strong>Step 5:</strong> Consider joining a grant writing workshop or webinar (many offered free through WebJunction and state libraries).</p>
+              <p className="mb-0"><strong>Step 6:</strong> Build relationships with other libraries that have successfully secured technology grants to learn from their experiences.</p>
+            </div>
+          </div>
+
+          {/* Quick Reference */}
+          <div className="mb-5">
+            <div className="card border-teal-mid">
+              <div className="card-header bg-teal-mid text-white">
+                <h5 className="mb-0"><i className="bi bi-bookmark"></i> Quick Reference: Key Contacts</h5>
+              </div>
+              <div className="card-body">
+                <p className="mb-2"><strong>Arkansas State Library:</strong> Your primary resource for state and federal grant information</p>
+                <p className="mb-2"><strong>IMLS:</strong> Federal grants and LSTA information</p>
+                <p className="mb-2"><strong>ALA Office for Library Advocacy:</strong> Grant resources and advocacy support</p>
+                <p className="mb-0"><strong>State Library Consultant:</strong> Personal guidance on grant opportunities specific to your library</p>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -313,4 +302,4 @@ const LibraryTraining = () => {
   )
 }
 
-export default LibraryTraining
+export default LibraryGrantsFunding

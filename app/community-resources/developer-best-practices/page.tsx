@@ -4,7 +4,7 @@ const LibraryDevChecklist = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
-        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Developer Checklist</h1>
+        <h1 className="display-1 text-teal-mid fw-bolder text-center mb-5">Developer Best Practices</h1>
         
         {/* Main Content in Single Column */}
         <div className="mx-auto" style={{maxWidth: '900px'}}>
@@ -12,7 +12,7 @@ const LibraryDevChecklist = () => {
           {/* Standards Baseline */}
           <div className="mb-5">
             <h2 className="text-teal-mid fw-bolder mb-4 text-center">
-              <i className="bi bi-check-circle"></i> Actionable Checklist for Library Developers
+              Standards & Best Practices
             </h2>
             
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

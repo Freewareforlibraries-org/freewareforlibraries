@@ -211,7 +211,7 @@ const LibraryPCManagement = () => {
         {/* System Baseline & Restore */}
         <div className="mb-5">
           <h2 className="text-teal-mid fw-bolder mb-3">
-            <i className="bi bi-arrow-clockwise"></i> Deepfreeze
+            <i className="bi bi-arrow-clockwise"></i> Deepfreeze Alernative
           </h2>
           <div className="row g-3">
             <div className="col-md-6 col-lg-4">

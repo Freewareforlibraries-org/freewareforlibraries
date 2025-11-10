@@ -8,11 +8,12 @@ const LibraryOrganizations = () => {
         <div className="pb-3 mb-3">
           
         </div>
-        <p className="mb-0 text-center">
-            These organizations offer technology resources, professional development, 
+          <div className="alert alert-info border-0 shadow-sm mx-auto" style={{maxWidth: '800px'}} role="alert">
+          <p className="mb-0 text-center">
+            <strong>Pro Tip:</strong> These organizations offer technology resources, professional development, 
             advocacy, and networking opportunities for library IT professionals and technology-minded librarians!
           </p>
-
+        </div>
         {/* Main Content in Single Column */}
         <div className="mx-auto" style={{maxWidth: '900px'}}>
           

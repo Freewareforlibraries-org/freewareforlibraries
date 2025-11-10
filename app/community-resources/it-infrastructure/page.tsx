@@ -41,7 +41,7 @@ const LibraryInfrastructure = () => {
                 <span className="badge bg-teal-light text-teal-dark">Networks</span>
                 <span className="badge bg-teal-light text-teal-dark">Future Tech</span>
               </div>
-              <a href="https://www.researchgate.net/publication/341165183_Technological_Infrastructure_for_Libraries" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Read on ResearchGate</a>
+              <a href="https://www.researchgate.net/publication/378888488_Technological_Infrastructure_for_Libraries" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Read on ResearchGate</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
@@ -127,8 +127,7 @@ const LibraryInfrastructure = () => {
                 <span className="badge bg-teal-light text-teal-dark">Processes</span>
               </div>
               <a href="https://www.ibm.com/topics/it-infrastructure-library" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">IBM ITIL Overview</a>
-              <a href="https://www.axelos.com/certifications/itil-service-management" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">AXELOS ITIL</a>
-            </div>
+              </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
@@ -210,7 +209,7 @@ const LibraryInfrastructure = () => {
                 <span className="badge bg-teal-light text-teal-dark">Accessibility</span>
                 <span className="badge bg-teal-light text-teal-dark">User Services</span>
               </div>
-              <a href="https://www.ala.org/advocacy/intfreedom/access-digital-resources-and-services" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">View ALA Guidelines</a>
+              <a href="https://www.ala.org/advocacy/intfreedom/librarybill/interpretations/digital" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">View ALA Guidelines</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

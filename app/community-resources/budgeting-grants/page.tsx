@@ -281,7 +281,6 @@ const LibraryGrantsFunding = () => {
                 <h5 className="mb-0"><i className="bi bi-bookmark"></i> Quick Reference: Key Contacts</h5>
               </div>
               <div className="card-body">
-                <p className="mb-2"><strong>Arkansas State Library:</strong> Your primary resource for state and federal grant information</p>
                 <p className="mb-2"><strong>IMLS:</strong> Federal grants and LSTA information</p>
                 <p className="mb-2"><strong>ALA Office for Library Advocacy:</strong> Grant resources and advocacy support</p>
                 <p className="mb-0"><strong>State Library Consultant:</strong> Personal guidance on grant opportunities specific to your library</p>

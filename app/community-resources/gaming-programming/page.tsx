@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GamingInLibraries = () => {
+const gp = () => {
   return (
     <div className="d-flex mt-auto mb-auto fade-in">
       <div className="container p-4">   
@@ -327,4 +327,4 @@ const GamingInLibraries = () => {
   )
 }
 
-export default GamingInLibraries;
+export default gp;

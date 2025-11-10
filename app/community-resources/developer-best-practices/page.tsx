@@ -40,7 +40,7 @@ const LibraryDevChecklist = () => {
                 <li>Use automated scanning (axe, WAVE) but rely on manual checks for screen-reader/keyboard flows</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>✓ Tip:</strong> Semantic HTML is preferred over ARIA. Only use ARIA attributes when native HTML elements can't achieve the desired accessibility.</p>
+                <p className="mb-0"><strong>Tip:</strong> Semantic HTML is preferred over ARIA. Only use ARIA attributes when native HTML elements can't achieve the desired accessibility.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Semantic HTML</span>
@@ -68,7 +68,7 @@ const LibraryDevChecklist = () => {
               </div>
               <p className="mb-3">Prominent catalog/search box, faceted search, typeahead suggestions, clear results metadata (availability, format, location), permalink to records, friendly error/no-results suggestions. Follow library UX patterns from successful systems.</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>✓ Tip:</strong> Study successful library discovery systems like BiblioCommons for proven UX patterns and search behaviors.</p>
+                <p className="mb-0"><strong>Tip:</strong> Study successful library discovery systems like BiblioCommons for proven UX patterns and search behaviors.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Search UX</span>
@@ -110,7 +110,7 @@ const LibraryDevChecklist = () => {
               </div>
               <p className="mb-3">Provide accessible PDFs/Word docs: proper tagging, readable text (not scanned images), bookmarks/headings in PDFs, and accessible captions for multimedia. Use ALA's best practices for library digital docs.</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>✓ Tip:</strong> Never publish scanned PDFs without OCR. All text must be selectable and readable by screen readers.</p>
+                <p className="mb-0"><strong>Tip:</strong> Never publish scanned PDFs without OCR. All text must be selectable and readable by screen readers.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">PDF Accessibility</span>
@@ -150,7 +150,7 @@ const LibraryDevChecklist = () => {
               </div>
               <p className="mb-3">Automated tests (axe core, pa11y, Lighthouse), unit/CI tests for critical flows, periodic manual audits, user testing with patrons including those with disabilities. Use published checklists (Deque, institutional examples).</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>✓ Tip:</strong> Automated tools catch about 30-40% of accessibility issues. Manual testing with real assistive technology is essential.</p>
+                <p className="mb-0"><strong>Tip:</strong> Automated tools catch about 30-40% of accessibility issues. Manual testing with real assistive technology is essential.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Automated Testing</span>
@@ -197,7 +197,7 @@ const LibraryDevChecklist = () => {
                 <li><strong>pa11y:</strong> Command-line accessibility testing tool</li>
               </ul>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>✓ Tip:</strong> Integrate automated tools into your CI/CD pipeline to catch accessibility issues before deployment.</p>
+                <p className="mb-0"><strong>Tip:</strong> Integrate automated tools into your CI/CD pipeline to catch accessibility issues before deployment.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Automated</span>
@@ -236,7 +236,7 @@ const LibraryDevChecklist = () => {
               </div>
               <p className="mb-3">Pragmatic UX tips specifically for library websites (homepage strategy, navigation, search prominence).</p>
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>✓ Tip:</strong> These blogs provide real-world examples of what works in library discovery interfaces and user behavior patterns.</p>
+                <p className="mb-0"><strong>Tip:</strong> These blogs provide real-world examples of what works in library discovery interfaces and user behavior patterns.</p>
               </div>
               <div className="d-flex gap-2 flex-wrap mb-3">
                 <span className="badge bg-teal-light text-teal-dark">Library UX</span>

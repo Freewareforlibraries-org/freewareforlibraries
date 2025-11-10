@@ -104,7 +104,7 @@ const Navbar = () => {
                       <h6 className="dropdown-header">FFL Apps</h6>
                       <Link className="dropdown-item" href="/wp">Wireless Printing App</Link>
                       <Link className="dropdown-item" href="/resources/guides">Blogs for Libraries!</Link>
-                      <Link className="dropdown-item" href="/resources/guides">Incident Mangement Tool</Link>
+                      <Link className="dropdown-item" href="/resources/guides">Incident Management Tool</Link>
                     </div>
 
                     {/* Column 2 */}

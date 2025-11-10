@@ -150,7 +150,7 @@ const LibraryPrivacy = () => {
                 <span className="badge bg-teal-light text-teal-dark">Privacy Audits</span>
                 <span className="badge bg-teal-light text-teal-dark">Staff Development</span>
               </div>
-              <a href="https://www.imls.gov/our-work/priority-areas/digital-privacy-libraries" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Access IMLS Guides</a>
+              <a href="https://www.imls.gov/blog/2021/09/easy-use-privacy-guides-libraries" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Access IMLS Guides</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

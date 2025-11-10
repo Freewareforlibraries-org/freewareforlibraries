@@ -269,7 +269,7 @@ const LibraryGrantsFunding = () => {
                 <i className="bi bi-list-check"></i> Getting Started with Grant Funding
               </h4>
               <hr />
-              <p className="mb-2"><strong>Step 1:</strong> Contact your state library agency (Arkansas State Library) to learn about current technology grant opportunities and application cycles.</p>
+              <p className="mb-2"><strong>Step 1:</strong> Contact your state library agency to learn about current technology grant opportunities and application cycles.</p>
               <p className="mb-2"><strong>Step 2:</strong> Subscribe to grant alert services from ALA, IMLS, and your state library to receive notifications about new funding opportunities.</p>
               <p className="mb-2"><strong>Step 3:</strong> Review recently funded projects to understand what makes successful applications in your state and region.</p>
               <p className="mb-2"><strong>Step 4:</strong> Document your current technology needs and community impact data before application deadlines arrive.</p>

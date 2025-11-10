@@ -234,7 +234,7 @@ const LibraryPrivacySecurity = () => {
                     <a href="https://jitsi.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Setup Guide</a>
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=jitsi+meet+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -322,7 +322,7 @@ const LibraryPrivacySecurity = () => {
                     <a href="https://suricata.io/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://docs.suricata.io/en/latest/quickstart.html" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Quick Start</a>
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=suricata+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>

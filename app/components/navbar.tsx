@@ -55,7 +55,7 @@ const Navbar = () => {
                     <div className="col-md-3">
                       <h6 className="dropdown-header">Technical Resources</h6>
                       <Link className="dropdown-item" href="/community-resources/security-privacy">Security and Privacy</Link>
-                      <Link className="dropdown-item" href="/programming-coding">IT Infrastructure</Link>
+                      <Link className="dropdown-item" href="/community-resources/it-infrastructure">IT Infrastructure</Link>
                       <Link className="dropdown-item" href="/programming-coding">Hardware & Software Support</Link>
                       <Link className="dropdown-item" href="/programming-coding">Upgrade plan</Link>
                       <Link className="dropdown-item" href="/programming-coding">Technology Workbook</Link>
@@ -120,7 +120,7 @@ const Navbar = () => {
                       <Link className="dropdown-item" href="/programming-coding">Data, Research, and Analytics</Link>
                       <Link className="dropdown-item" href="/programming-coding">Patron Engagement & Programming</Link>
                        <Link className="dropdown-item" href="/programming-coding">Accessibility & Assistive Technology</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Privacy & Security</Link>
+                      <Link className="dropdown-item" href="/digital-resources/privacy-security">Privacy & Security</Link>
                     </div>
 
                     {/* Column 3 */}

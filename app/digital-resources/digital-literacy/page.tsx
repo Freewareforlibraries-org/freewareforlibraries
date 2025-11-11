@@ -88,10 +88,6 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.digitallearn.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.ala.org/pla/education/onlinelearning/digitallearn" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">ALA Resources</a>
-                    <a href="https://www.youtube.com/results?search_query=digitallearn.org+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -115,10 +111,6 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://edu.gcfglobal.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://edu.gcfglobal.org/en/subjects/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Browse Topics</a>
-                    <a href="https://www.youtube.com/results?search_query=gcflearnfree+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -141,10 +133,6 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.digitalliteracyassessment.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.digitalliteracyassessment.org/standards" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Standards</a>
-                    <a href="https://www.youtube.com/results?search_query=northstar+digital+literacy" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -177,10 +165,6 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.gale.com/databases/gale-presents-udemy" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Gale</a>
-                    <a href="https://www.gale.com/databases/gale-presents-udemy" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Learn More</a>
-                    <a href="https://www.youtube.com/results?search_query=gale+udemy+library" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -204,10 +188,6 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://learning.linkedin.com/for-government" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">For Libraries</a>
-                    <a href="https://www.youtube.com/results?search_query=linkedin+learning+library" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -230,10 +210,6 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://learn.microsoft.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Browse Training</a>
-                    <a href="https://www.youtube.com/results?search_query=microsoft+learn+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -265,10 +241,7 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.universalclass.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.universalclass.com/libraries.htm" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">For Libraries</a>
-                    <a href="https://www.youtube.com/results?search_query=universal+class+tutorial" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
+                   
                   </div>
                 </div>
               </div>
@@ -291,10 +264,7 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.learningexpresshub.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.learningexpresshub.com/productpage/learningexpress-library" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Learn More</a>
-                    <a href="https://www.youtube.com/results?search_query=learningexpress+library" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
+                  
                   </div>
                 </div>
               </div>
@@ -317,10 +287,7 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://mangolanguages.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://mangolanguages.com/libraries/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">For Libraries</a>
-                    <a href="https://www.youtube.com/results?search_query=mango+languages+library" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
+                   
                   </div>
                 </div>
               </div>
@@ -351,10 +318,7 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.brainfuse.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.brainfuse.com/solutions/public-libraries/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">For Libraries</a>
-                    <a href="https://www.youtube.com/results?search_query=brainfuse+library" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
+                   
                   </div>
                 </div>
               </div>
@@ -385,10 +349,7 @@ const DigitalLiteracyPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.abcmouse.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.abcmouse.com/aep/libraries" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">For Libraries</a>
-                    <a href="https://www.youtube.com/results?search_query=abcmouse+library" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
+                   
                   </div>
                 </div>
               </div>

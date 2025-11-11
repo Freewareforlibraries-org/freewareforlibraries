@@ -121,7 +121,7 @@ const Navbar = () => {
                     {/* Column 3 */}
                     <div className="col-md-3">
                       <h6 className="dropdown-header">Open Source Tools for IT</h6>
-                      <Link className="dropdown-item" href="/services">Network Management & Security</Link>
+                      <Link className="dropdown-item" href="/services">Network Management</Link>
                       <Link className="dropdown-item" href="/wp">Servers, Virtualization & Deployment</Link>
                       <Link className="dropdown-item" href="/services">Backup, Storage & File Sharing</Link>
                       <Link className="dropdown-item" href="/wp">Identity, Access, and Authentication</Link>

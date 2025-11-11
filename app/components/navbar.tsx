@@ -73,7 +73,7 @@ const Navbar = () => {
                     <div className="col-md-3">
                       <h6 className="dropdown-header">Programming and Digital Literacy</h6>
                       <Link className="dropdown-item" href="/community-resources/gaming-programming">Gaming in Your Library</Link>
-                      <Link className="dropdown-item" href="/community-resources/programming-coding">Coding Classes</Link>
+                      <Link className="dropdown-item" href="/community-resources/digital-resources/">Coding Classes</Link>
                       <Link className="dropdown-item" href="/community-resources/programming-digital">Digital Literacy</Link>
                       <Link className="dropdown-item" href="/community-resources/programming-resume">Resume Building</Link>
                     </div>
@@ -112,13 +112,13 @@ const Navbar = () => {
                       <h6 className="dropdown-header">Open Source</h6>
                       <Link className="dropdown-item" href="/digital-resources/library-management">Library Management & Discovery</Link>
                       <Link className="dropdown-item" href="/digital-resources/pc-management">Public Access & Patron Computing</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Makerspace, Coding, & Creative Tools</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Website, CMS, and Communication</Link>
-                       <Link className="dropdown-item" href="/services">Learning & Digital Literacy Platforms</Link>
-                      <Link className="dropdown-item" href="/programming-coding">IT Infrastructure & Support</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Data, Research, and Analytics</Link>
-                      <Link className="dropdown-item" href="/programming-coding">Patron Engagement & Programming</Link>
-                       <Link className="dropdown-item" href="/programming-coding">Accessibility & Assistive Technology</Link>
+                      <Link className="dropdown-item" href="/digital-resources/makerspace">Makerspace, Coding, & Creative Tools</Link>
+                      <Link className="dropdown-item" href="/digital-resources/website">Website, CMS, and Communication</Link>
+                       <Link className="dropdown-item" href="/digital-resources/digital-literacy">Learning & Digital Literacy Platforms</Link>
+                      <Link className="dropdown-item" href="/digital-resources/">IT Infrastructure & Support</Link>
+                      <Link className="dropdown-item" href="/digital-resources/">Data, Research, and Analytics</Link>
+                      <Link className="dropdown-item" href="/digital-resources/">Patron Engagement & Programming</Link>
+                       <Link className="dropdown-item" href="/digital-resources/">Accessibility & Assistive Technology</Link>
                       <Link className="dropdown-item" href="/digital-resources/privacy-security">Privacy & Security</Link>
                     </div>
 

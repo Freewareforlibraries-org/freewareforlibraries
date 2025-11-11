@@ -115,8 +115,6 @@ const Navbar = () => {
                       <Link className="dropdown-item" href="/digital-resources/makerspace">Makerspace, Coding, & Creative Tools</Link>
                       <Link className="dropdown-item" href="/digital-resources/website">Website, CMS, and Communication</Link>
                        <Link className="dropdown-item" href="/digital-resources/digital-literacy">Learning & Digital Literacy Platforms</Link>
-                      <Link className="dropdown-item" href="/digital-resources/">IT Infrastructure & Support</Link>
-                      <Link className="dropdown-item" href="/digital-resources/">Data, Research, and Analytics</Link>
                       <Link className="dropdown-item" href="/digital-resources/">Patron Engagement & Programming</Link>
                        <Link className="dropdown-item" href="/digital-resources/">Accessibility & Assistive Technology</Link>
                       <Link className="dropdown-item" href="/digital-resources/privacy-security">Privacy & Security</Link>

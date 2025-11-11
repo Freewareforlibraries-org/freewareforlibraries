@@ -93,8 +93,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.patronpoint.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.alastore.ala.org/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">ALA Store</a>
                     <a href="https://www.youtube.com/results?search_query=patron+point+library" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -121,8 +119,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.libraryaware.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.ebsco.com/products/ebsconet/libraryaware" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">EBSCO Info</a>
                     <a href="https://www.youtube.com/results?search_query=libraryaware+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -157,8 +153,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://springshare.com/libcal/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://springshare.com/libcal/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Learn More</a>
                     <a href="https://www.youtube.com/results?search_query=libcal+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -184,8 +178,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://springshare.com/libanswers/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.alastore.ala.org/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">ALA Store</a>
                     <a href="https://www.youtube.com/results?search_query=libanswers+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -220,8 +212,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://koha-community.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://koha-community.org/download-koha/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=koha+ils+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -247,8 +237,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.libraryworld.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.libraryworld.com/pricing/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Pricing</a>
                     <a href="https://www.youtube.com/results?search_query=libraryworld+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -273,8 +261,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.companioncorp.com/products/alexandria/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.companioncorp.com/products/alexandria/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Learn More</a>
                     <a href="https://www.youtube.com/results?search_query=alexandria+library+software" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -299,8 +285,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.mandarin.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.getapp.com/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">GetApp Reviews</a>
                     <a href="https://www.youtube.com/results?search_query=mandarin+library+software" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -325,8 +309,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.accessit.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.getapp.com/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">GetApp Reviews</a>
                     <a href="https://www.youtube.com/results?search_query=accessit+library+software" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -351,8 +333,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.surpasssoftware.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.getapp.com/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">GetApp Reviews</a>
                     <a href="https://www.youtube.com/results?search_query=surpass+library+software" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -387,8 +367,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.bibliocommons.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.alastore.ala.org/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">ALA Store</a>
                     <a href="https://www.youtube.com/results?search_query=bibliocommons+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -413,8 +391,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.iii.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.iii.com/products/vega/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Learn More</a>
                     <a href="https://www.youtube.com/results?search_query=innovative+interfaces+vega" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -449,8 +425,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.orangeboyinc.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.alastore.ala.org/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">ALA Store</a>
                     <a href="https://www.youtube.com/results?search_query=orangeboy+library" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -475,8 +449,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.whofi.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.getapp.com/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">GetApp Reviews</a>
                     <a href="https://www.youtube.com/results?search_query=whofi+analytics" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -509,8 +481,6 @@ const PatronEngagementPlatforms = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://github.com/Libstick/libstick" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit GitHub</a>
-                    <a href="https://github.com/Libstick/libstick" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
                     <a href="https://www.youtube.com/results?search_query=libstick+library" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>

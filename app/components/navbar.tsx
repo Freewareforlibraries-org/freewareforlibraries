@@ -123,9 +123,9 @@ const Navbar = () => {
                       <h6 className="dropdown-header">Open Source Tools for IT</h6>
                       <Link className="dropdown-item" href="/digital-resources/network-management">Network Management</Link>
                       <Link className="dropdown-item" href="/digital-resources/server-virt-deployment">Servers, Virtualization & Deployment</Link>
-                      <Link className="dropdown-item" href="/services">Backup, Storage & File Sharing</Link>
-                      <Link className="dropdown-item" href="/wp">Identity, Access, and Authentication</Link>
-                       <Link className="dropdown-item" href="/services">Monitoring, Logging & Analytics</Link>
+                      <Link className="dropdown-item" href="/digital-resources/backup-sharing">Backup, Storage & File Sharing</Link>
+                      <Link className="dropdown-item" href="digital-resources/identity-access">Identity, Access, and Authentication</Link>
+                       <Link className="dropdown-item" href="/digital-resources/monitoring-logging">Monitoring, Logging & Analytics</Link>
                       <Link className="dropdown-item" href="/digital-resources/privacy-security">Privacy & Security</Link>
                       
                     </div>

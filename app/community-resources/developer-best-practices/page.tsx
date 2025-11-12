@@ -47,7 +47,7 @@ const LibraryDevChecklist = () => {
                 <span className="badge bg-teal-light text-teal-dark">Keyboard Nav</span>
                 <span className="badge bg-teal-light text-teal-dark">Screen Readers</span>
               </div>
-              <a href="https://www.ala.org/asgcla/resources/accessibilitytipsheets" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">ALA Accessibility Resources</a>
+              <a href="https://www.ala.org/advocacy/diversity/accessibility" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">ALA Accessibility Resources</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
@@ -75,26 +75,12 @@ const LibraryDevChecklist = () => {
                 <span className="badge bg-teal-light text-teal-dark">Faceted Search</span>
                 <span className="badge bg-teal-light text-teal-dark">Discovery</span>
               </div>
-              <a href="https://www.bibliocommunsblog.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">BiblioCommons Blog</a>
+              <a href="https://blog.bibliocommons.com/blog" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">BiblioCommons Blog</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">5. Metadata & Digital Collections</h5>
-              </div>
-              <p className="mb-3">Use standard metadata schemas (Dublin Core, MODS, schema.org for SEO), expose machine-readable metadata (JSON-LD), stable identifiers for items, and documented APIs for integration. Follow IMLS guidance for digital collections projects.</p>
-              <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Dublin Core</span>
-                <span className="badge bg-teal-light text-teal-dark">MODS</span>
-                <span className="badge bg-teal-light text-teal-dark">JSON-LD</span>
-                <span className="badge bg-teal-light text-teal-dark">APIs</span>
-              </div>
-              <a href="https://www.imls.gov/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">IMLS Guidance</a>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">6. Content & Language</h5>
+                <h5 className="text-teal-mid fw-bold mb-2">5. Content & Language</h5>
               </div>
               <p className="mb-3">Use plain language, short scannable pages, headings and lists, avoid internal jargon, maintain editorial style guide, indicate service hours and contact clearly.</p>
               <div className="d-flex gap-2 flex-wrap mb-3">
@@ -106,7 +92,7 @@ const LibraryDevChecklist = () => {
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">7. Document Accessibility</h5>
+                <h5 className="text-teal-mid fw-bold mb-2">6. Document Accessibility</h5>
               </div>
               <p className="mb-3">Provide accessible PDFs/Word docs: proper tagging, readable text (not scanned images), bookmarks/headings in PDFs, and accessible captions for multimedia. Use ALA's best practices for library digital docs.</p>
               <div className="alert alert-success border-0 mb-3">
@@ -121,7 +107,7 @@ const LibraryDevChecklist = () => {
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">8. Privacy & Security</h5>
+                <h5 className="text-teal-mid fw-bold mb-2">7. Privacy & Security</h5>
               </div>
               <p className="mb-3">Minimize PII, use HTTPS, secure forms, CSP headers, cookie/privacy notice, comply with local privacy laws, protect patron data in analytics and third-party widgets.</p>
               <div className="d-flex gap-2 flex-wrap mb-3">
@@ -134,7 +120,7 @@ const LibraryDevChecklist = () => {
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">9. Governance & Workflows</h5>
+                <h5 className="text-teal-mid fw-bold mb-2">8. Governance & Workflows</h5>
               </div>
               <p className="mb-3">Have a documented accessibility policy, content lifecycle (who publishes/edits), QA checklist for releases, and routine audits. IMLS/ALA resources discuss governance and public-access responsibilities.</p>
               <div className="d-flex gap-2 flex-wrap mb-3">
@@ -146,7 +132,7 @@ const LibraryDevChecklist = () => {
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">
               <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">10. Testing & Continuous QA</h5>
+                <h5 className="text-teal-mid fw-bold mb-2">9. Testing & Continuous QA</h5>
               </div>
               <p className="mb-3">Automated tests (axe core, pa11y, Lighthouse), unit/CI tests for critical flows, periodic manual audits, user testing with patrons including those with disabilities. Use published checklists (Deque, institutional examples).</p>
               <div className="alert alert-success border-0 mb-3">
@@ -181,7 +167,7 @@ const LibraryDevChecklist = () => {
                 <span className="badge bg-teal-light text-teal-dark">Guidelines</span>
               </div>
               <a href="https://www.w3.org/WAI/WCAG22/quickref/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">W3C WCAG</a>
-              <a href="https://www.ala.org/asgcla/resources/accessibilitytipsheets" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow me-2">ALA Resources</a>
+              <a href="https://www.ala.org/tools/standards-and-guidelines" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow me-2">ALA Resources</a>
               <a href="https://dequeuniversity.com/checklists/web/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">Deque Checklist</a>
             </div>
 
@@ -243,7 +229,7 @@ const LibraryDevChecklist = () => {
                 <span className="badge bg-teal-light text-teal-dark">Best Practices</span>
                 <span className="badge bg-teal-light text-teal-dark">Case Studies</span>
               </div>
-              <a href="https://www.bibliocommunsblog.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">BiblioCommons Blog</a>
+              <a href="https://blog.bibliocommons.com/blog" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">BiblioCommons Blog</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

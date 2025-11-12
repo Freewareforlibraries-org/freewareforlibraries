@@ -68,7 +68,7 @@ const LibraryManagementSystems = () => {
               </ul>
 
               <div className="alert alert-success border-0 mb-3">
-                <p className="mb-0"><strong>💡 Best For:</strong> Libraries of all sizes looking for a mature, feature-rich ILS with strong community support. Particularly good for libraries wanting control over their system and the ability to customize.</p>
+                <p className="mb-0"><strong>Best For:</strong> Libraries of all sizes looking for a mature, feature-rich ILS with strong community support. Particularly good for libraries wanting control over their system and the ability to customize.</p>
               </div>
 
               <div className="d-flex gap-2 flex-wrap mb-3">
@@ -117,7 +117,7 @@ const LibraryManagementSystems = () => {
               </ul>
 
               <div className="alert alert-info border-0 mb-0">
-                <p className="mb-0"><strong>ℹ️ Coming Soon:</strong> Detailed coverage of open-source discovery systems including VuFind, Blacklight, and others with implementation guides and comparison information.</p>
+                <p className="mb-0"><strong>ℹComing Soon:</strong> Detailed coverage of open-source discovery systems including VuFind, Blacklight, and others with implementation guides and comparison information.</p>
               </div>
             </div>
           </div>

@@ -259,7 +259,7 @@ const PatronEngagementPlatforms = () => {
                     <span className="badge bg-teal-light text-teal-dark">Circulation</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://www.companioncorp.com/products/alexandria/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.goalexandria.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://www.youtube.com/results?search_query=alexandria+library+software" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -283,7 +283,7 @@ const PatronEngagementPlatforms = () => {
                     <span className="badge bg-teal-light text-teal-dark">Simple</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://www.mandarin.com/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.mlasolutions.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://www.youtube.com/results?search_query=mandarin+library+software" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -307,7 +307,7 @@ const PatronEngagementPlatforms = () => {
                     <span className="badge bg-teal-light text-teal-dark">Management</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://www.accessit.com/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://accessitlibrary.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://www.youtube.com/results?search_query=accessit+library+software" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -479,8 +479,8 @@ const PatronEngagementPlatforms = () => {
                     <span className="badge bg-teal-light text-teal-dark">Efficiency</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://github.com/Libstick/libstick" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit GitHub</a>
+                    <a href="https://libstick.org/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://www.youtube.com/results?search_query=libstick+library" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>

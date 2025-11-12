@@ -34,7 +34,7 @@ const AccessibilityGuidelines = () => {
                 <span className="badge bg-teal-light text-teal-dark">Section 508</span>
               </div>
               <a href="https://www.w3.org/WAI/WCAG22/quickref/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">W3C WCAG Quick Reference</a>
-              <a href="https://libguides.ala.org/accessibility" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">ALA LibGuides</a>
+              <a href="https://libguides.ala.org/libservice-disability/web-accessibility" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">ALA LibGuides</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

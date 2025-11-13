@@ -162,7 +162,7 @@ const AccessibilityGuidelines = () => {
                 <span className="badge bg-teal-light text-teal-dark">Policy Guidance</span>
               </div>
               <a href="https://www.libraryaccessibility.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">LAA Resources</a>
-              <a href="https://libguides.ala.org/accessibility" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">ALA Accessibility</a>
+              <a href="https://libguides.ala.org/libservice-disability" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">ALA Accessibility</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

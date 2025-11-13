@@ -66,7 +66,7 @@ const LibraryInfrastructure = () => {
                 <span className="badge bg-teal-light text-teal-dark">Connectivity</span>
                 <span className="badge bg-teal-light text-teal-dark">Digital Equity</span>
               </div>
-              <a href="https://www.extremenetworks.com/blog/building-an-it-infrastructure-to-support-your-library/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Extreme Networks</a>
+              <a href="https://www.extremenetworks.com/resources/blogs/building-an-it-infrastructure-to-support-your-library-and-combat-the-digital-divide" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Extreme Networks</a>
             </div>
 
             <div className="mb-4 p-4 bg-white shadow-sm rounded">

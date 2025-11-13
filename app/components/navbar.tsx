@@ -56,8 +56,8 @@ const Navbar = () => {
                       <h6 className="dropdown-header">Technical Resources</h6>
                       <Link className="dropdown-item" href="/community-resources/security-privacy">Security and Privacy</Link>
                       <Link className="dropdown-item" href="/community-resources/it-infrastructure">IT Infrastructure</Link>
-                      <Link className="dropdown-item" href="/community-resources/technology-workbook">Upgrade plan</Link>
-                      <Link className="dropdown-item" href="/community-resources/upgrade-plan">Technology Workbook</Link>
+                      <Link className="dropdown-item" href="/community-resources/upgrade-plan">Upgrade plan</Link>
+                      <Link className="dropdown-item" href="/community-resources/technology-workbook">Technology Workbook</Link>
                     </div>
 
                     {/* Column 3 */}

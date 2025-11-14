@@ -236,7 +236,7 @@ const LibraryWebTools = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://strapi.io/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://strapi.io/download" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://github.com/strapi/documentation" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=strapi+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -320,8 +320,8 @@ const LibraryWebTools = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://plausible.io/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://plausible.io/docs/self-hosting" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Self-Hosting Guide</a>
+                    <a href="https://github.com/plausible/docs" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=plausible+analytics+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -370,8 +370,8 @@ const LibraryWebTools = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://superset.apache.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://superset.apache.org/docs/intro" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
+                    <a href="https://github.com/apache/superset" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=apache+superset+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -430,7 +430,7 @@ const LibraryWebTools = () => {
                     <a href="https://nextcloud.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://nextcloud.com/install/" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Install Guide</a>
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=nextcloud+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -455,7 +455,7 @@ const LibraryWebTools = () => {
                     <a href="https://rocket.chat/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://docs.rocket.chat/deploy/deploy-rocket.chat" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Deploy Guide</a>
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=rocket.chat+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -480,7 +480,7 @@ const LibraryWebTools = () => {
                     <a href="https://mattermost.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://docs.mattermost.com/guides/deployment.html" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Deploy Guide</a>
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=mattermost+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -563,7 +563,7 @@ const LibraryWebTools = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://islandora.ca/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://islandora.github.io/documentation/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.islandora.ca/get-islandora" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
                     <a href="https://www.youtube.com/results?search_query=islandora+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -588,7 +588,7 @@ const LibraryWebTools = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://dataverse.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://guides.dataverse.org/en/latest/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://github.com/IQSS/dataverse/releases" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
                     <a href="https://www.youtube.com/results?search_query=dataverse+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -613,7 +613,7 @@ const LibraryWebTools = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.dokuwiki.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.dokuwiki.org/install" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://github.com/splitbrain/dokuwiki-downloader" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Install Guide</a>
                     <a href="https://www.youtube.com/results?search_query=dokuwiki+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -663,8 +663,8 @@ const LibraryWebTools = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://baserow.io/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://baserow.io/docs/installation%2Finstall-with-docker" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Install Guide</a>
+                    <a href="https://github.com/baserow/baserow/tree/develop/docs" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=baserow+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>

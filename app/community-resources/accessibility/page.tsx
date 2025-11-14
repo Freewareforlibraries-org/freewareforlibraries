@@ -21,7 +21,7 @@ const AccessibilityGuidelines = () => {
               </div>
               <p className="mb-3">The Web Content Accessibility Guidelines (WCAG) are the foundational technical standard for web accessibility (versions 2.0, 2.1, 2.2).</p>
               <p className="mb-3">In the U.S., public libraries (as public entities) must consider accessibility requirements under law (e.g., Americans with Disabilities Act Title II, and sometimes Rehabilitation Act of 1973 Section 508 for electronic information).</p>
-              <p className="mb-3">The <strong>"POUR" principles</strong> summarise WCAG:</p>
+              <p className="mb-3">The <strong>"POUR" principles</strong> summarized WCAG:</p>
               <ul className="mb-3">
                 <li><strong>Perceivable:</strong> Information and UI components must be presentable to users</li>
                 <li><strong>Operable:</strong> UI components and navigation must be operable</li>
@@ -162,29 +162,7 @@ const AccessibilityGuidelines = () => {
                 <span className="badge bg-teal-light text-teal-dark">Policy Guidance</span>
               </div>
               <a href="https://www.libraryaccessibility.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm bg-teal-mid text-white hvr-grow me-2">LAA Resources</a>
-              <a href="https://libguides.ala.org/libservice-disability103" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">ALA Accessibility</a>
-            </div>
-
-            <div className="mb-4 p-4 bg-white shadow-sm rounded">
-              <div className="mb-3">
-                <h5 className="text-teal-mid fw-bold mb-2">
-                  Key Caveats When Using Tools <span className="badge bg-warning text-dark ms-2">Important</span>
-                </h5>
-              </div>
-              <div className="alert alert-success border-0 mb-3">
-                <p className="mb-2"><strong>Critical to Know:</strong></p>
-                <ul className="mb-0">
-                  <li>Automated tools are helpful but they catch only a subset of accessibility issues (some estimate ~30-40%)</li>
-                  <li>Manual testing (keyboard only, screen-reader) is essential</li>
-                  <li>Tools will produce false positives and cannot fully verify usability, meaning human judgement is required</li>
-                  <li>For full compliance and inclusive user experience, integrate accessibility testing early (shift-left) and often in development, not just at the end</li>
-                </ul>
-              </div>
-              <div className="d-flex gap-2 flex-wrap mb-3">
-                <span className="badge bg-teal-light text-teal-dark">Manual Testing Required</span>
-                <span className="badge bg-teal-light text-teal-dark">Human Judgement</span>
-                <span className="badge bg-teal-light text-teal-dark">Continuous Testing</span>
-              </div>
+              <a href="https://libguides.ala.org/libservice-disability" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary hvr-grow">ALA Accessibility</a>
             </div>
           </div>
 

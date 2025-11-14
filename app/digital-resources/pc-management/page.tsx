@@ -197,7 +197,7 @@ const LibraryPCManagement = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.savapage.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="hhttps://wiki.savapage.org/doku.php?id=software_packages" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://wiki.savapage.org/doku.php?id=software_packages" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=savapage+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -231,10 +231,10 @@ const LibraryPCManagement = () => {
                     <span className="badge bg-teal-light text-teal-dark">Windows IoT</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/uwf-overview" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Documentation</a>
-                    <a href="https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/uwf-overview" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Setup Guide</a>
+                    <a href="https://learn.microsoft.com/en-us/windows/configuration/unified-write-filter/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
+                    <a href="https://learn.microsoft.com/en-us/windows/configuration/unified-write-filter/uwf-turnonuwf " target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=windows+unified+write+filter+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>
@@ -256,9 +256,9 @@ const LibraryPCManagement = () => {
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://www.toolwiz.com/products/toolwiz-time-freeze/" target="_blank" rel="noopener noreferrer" 
+                    <a href="hhttps://www.majorgeeks.com/files/details/toolwiz_time_freeze.html" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.toolwiz.com/products/toolwiz-time-freeze/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.majorgeeks.com/files/details/toolwiz_time_freeze.html" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=toolwiz+time+freeze+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -281,9 +281,9 @@ const LibraryPCManagement = () => {
                     <span className="badge bg-teal-light text-teal-dark">Windows</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://horizondatasys.com/rollback-rx/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.majorgeeks.com/files/details/toolwiz_time_freeze.html" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://horizondatasys.com/rollback-rx/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.majorgeeks.com/files/details/toolwiz_time_freeze.html" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=rollback+rx+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -308,7 +308,7 @@ const LibraryPCManagement = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://www.wioski.com/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://www.wioski.com/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.wioski.com/productsdownloads/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=wioski+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -334,7 +334,7 @@ const LibraryPCManagement = () => {
                   <div className="mt-auto d-flex flex-column gap-2">
                     <a href="https://porteus-kiosk.org/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
-                    <a href="https://porteus-kiosk.org/" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://porteus-kiosk.org/download.html" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=porteus+kiosk+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
@@ -357,10 +357,10 @@ const LibraryPCManagement = () => {
                     <span className="badge bg-teal-light text-teal-dark">Linux</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://github.com/tuxcrafter/ofris" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://sourceforge.net/projects/dafturnofris-id/" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit GitHub</a>
-                    <a href="https://github.com/tuxcrafter/ofris" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Documentation</a>
+                    <a href="https://sourceforge.net/projects/dafturnofris-id/files/" target="_blank" rel="noopener noreferrer" 
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=ofris+linux+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>

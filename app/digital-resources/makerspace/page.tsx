@@ -124,7 +124,7 @@ const MakerspaceTools = () => {
                     <a href="https://developers.google.com/blockly" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Website</a>
                     <a href="https://developers.google.com/blockly/guides/get-started/get-the-code" target="_blank" rel="noopener noreferrer" 
-                       className="btn btn-sm btn-outline-secondary hvr-grow">Get Started</a>
+                       className="btn btn-sm btn-outline-secondary hvr-grow">Download</a>
                     <a href="https://www.youtube.com/results?search_query=blockly+tutorial" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm btn-outline-danger hvr-grow">YouTube Tutorials</a>
                   </div>

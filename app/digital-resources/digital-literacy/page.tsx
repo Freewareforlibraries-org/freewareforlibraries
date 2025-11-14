@@ -163,7 +163,7 @@ const DigitalLiteracyPlatforms = () => {
                     <span className="badge bg-teal-light text-teal-dark">Business</span>
                   </div>
                   <div className="mt-auto d-flex flex-column gap-2">
-                    <a href="https://www.gale.com/databases/gale-presents-udemy" target="_blank" rel="noopener noreferrer" 
+                    <a href="https://www.gale.com/product-catalog/16550938" target="_blank" rel="noopener noreferrer" 
                        className="btn btn-sm bg-teal-mid text-white hvr-grow">Visit Gale</a>
                   </div>
                 </div>
